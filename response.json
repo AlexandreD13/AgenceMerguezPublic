@@ -1,0 +1,3348 @@
+{
+  "search_id": "5c9638e5-7d8c-03e0-b33e-9923bd61dedf",
+  "currency": "CAD",
+  "fx_rate": 1.465446,
+  "data": [
+    {
+      "id": "0eae06ae4d7e0000bab0508c_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-25T12:55:00.000Z",
+      "utc_departure": "2024-04-25T16:55:00.000Z",
+      "local_arrival": "2024-04-25T16:42:00.000Z",
+      "utc_arrival": "2024-04-25T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 79.398391,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 72,
+      "conversion": {
+        "CAD": 72,
+        "EUR": 49.13180014821426
+      },
+      "fare": {
+        "adults": 72,
+        "children": 72,
+        "infants": 72
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d7e0000bab0508c_0",
+          "combination_id": "0eae06ae4d7e0000bab0508c",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-25T12:55:00.000Z",
+          "utc_departure": "2024-04-25T16:55:00.000Z",
+          "local_arrival": "2024-04-25T16:42:00.000Z",
+          "utc_arrival": "2024-04-25T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "Y9",
+          "operating_flight_no": "543",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GVjxtN09srjV3rs22h2uZOy27qwi-Clb47ZOwLrb9t-mLyWJDCNGL9MPePFdWYD7JFC8y2Bk81jL85igEUATpMEOauOSOzm7CQYi22iwwyE_8axnSZLspiwO6YGqOq4VzOrCWPxF4ZP2U1f1nSGxmj4d_6ra5TTeU0FL6P-cj7vQ2zLJG_j1_s9KgENZzoWabO0_dEboQ8vHanyKhXJTHiUtLH-utHeDEOWvzQjBU_WgAqAYiGuKmhh_BEXNe1FZElgBI9jfZthqJPjSv5o-o7aVNxCQNYqaBPcor8Gtsvcl02nTbD6F853qdsIsFLp-5If0KdGjamQQm3OsCy1p5Ols2-U6fnpfZfrA3b8gnGiGQ37hk9pHFcsuOnFJAYSEALMxSeQUsurxV9zHVdn1ITWM7JJNbDBLjLIzrcBEzmV_5jvrJQKcapJT-i3pDBimt3hwKoumeSWDeXOH5Lbk4uqMA_mdrCtGWLLERwKok23mRc8ecclV2PAyyC3XesFOGFbeW8NmmDMMv2hFj5MfEbsF20WpDcRdJem-IDFFdrKHGRUTvaJq7sGnlJ7f6LIGFTf09cJkjxiJZvCEOSvvXRPeDfAbuXZT6kMxjPlveUd810xF0vMEu9vUCmy_T4geBATxU0b6aBihqkdVWF4e3934qoOARqXx8DoQDHRMc41wWKb7iPqPCgQ_D9UJcB2_t",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d7e0000bab0508c_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=GVjxtN09srjV3rs22h2uZOy27qwi-Clb47ZOwLrb9t-mLyWJDCNGL9MPePFdWYD7JFC8y2Bk81jL85igEUATpMEOauOSOzm7CQYi22iwwyE_8axnSZLspiwO6YGqOq4VzOrCWPxF4ZP2U1f1nSGxmj4d_6ra5TTeU0FL6P-cj7vQ2zLJG_j1_s9KgENZzoWabO0_dEboQ8vHanyKhXJTHiUtLH-utHeDEOWvzQjBU_WgAqAYiGuKmhh_BEXNe1FZElgBI9jfZthqJPjSv5o-o7aVNxCQNYqaBPcor8Gtsvcl02nTbD6F853qdsIsFLp-5If0KdGjamQQm3OsCy1p5Ols2-U6fnpfZfrA3b8gnGiGQ37hk9pHFcsuOnFJAYSEALMxSeQUsurxV9zHVdn1ITWM7JJNbDBLjLIzrcBEzmV_5jvrJQKcapJT-i3pDBimt3hwKoumeSWDeXOH5Lbk4uqMA_mdrCtGWLLERwKok23mRc8ecclV2PAyyC3XesFOGFbeW8NmmDMMv2hFj5MfEbsF20WpDcRdJem-IDFFdrKHGRUTvaJq7sGnlJ7f6LIGFTf09cJkjxiJZvCEOSvvXRPeDfAbuXZT6kMxjPlveUd810xF0vMEu9vUCmy_T4geBATxU0b6aBihqkdVWF4e3934qoOARqXx8DoQDHRMc41wWKb7iPqPCgQ_D9UJcB2_t",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d6b00007c427b28_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-06T12:55:00.000Z",
+      "utc_departure": "2024-04-06T16:55:00.000Z",
+      "local_arrival": "2024-04-06T16:42:00.000Z",
+      "utc_arrival": "2024-04-06T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 79.398391,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 72,
+      "conversion": {
+        "CAD": 72,
+        "EUR": 49.13180014821426
+      },
+      "fare": {
+        "adults": 72,
+        "children": 72,
+        "infants": 72
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d6b00007c427b28_0",
+          "combination_id": "0eae06ae4d6b00007c427b28",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-06T12:55:00.000Z",
+          "utc_departure": "2024-04-06T16:55:00.000Z",
+          "local_arrival": "2024-04-06T16:42:00.000Z",
+          "utc_arrival": "2024-04-06T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "Y9",
+          "operating_flight_no": "543",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GRrq941hoo41J3oIyu_xBrFOeWojBipToxIHqd93-fOkQ4wnWGsybnt3wvXJ7HCzvEbwXPbXpoJKuJ-B4ux738ahyBWEtPhC4Xq-kopCvtQLT_zMxF7sZ0P2kp_-Ge_fzPFtqeQ7GlUFPU-1IqF08SdJ4010puAaHgxXKcNlyFD1YDVQDsqanfICJ_BBN4JCnuSSYRHPn9LrdpqCCOfm5KmxSeLOp4H9GidGHxvVuJRPom4zLVS0sOP_m4JTaYuRQt_YcvkpRakyIOZzhhnA_XmS7OVf_IhPTSP2aliZ9VA630Ljq1h9ZflXylYLjRiHFkRrnnKylroiknAdbE0Qymv8SY158CUatqR6U2U2xIhrjLLkImiehSm_W1vCmed69lsKraRsSQ8llSzhw_L4fFPm7oM7hkXxpfhDYT4CKC-4U8TPvTT6jxZX5R8_9fIWqfZHmDuQIU8oiHAjEBS6yEvAWu7EqAd9ue8V45v0pMhPLrX68fOj0uuAxisvTEvCbhUCLZt1IsH4y5YXu4fE1s1zdPfal3FuMABTBzzdgHxg22NgJlLkiTkzJ5gidJb3n9hNlTTk_bCgpwwQx60hhUb8KvS9mnQOTrObEnfkMXDgmZxoeCSqJ4coFD2EHx1ivR0mBdpF3b_BpiC1BNK57BTPePRXkTmMFAP8YxQKp6kd3j3JxX8Q884P6Qc3_Lk2l",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d6b00007c427b28_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=GRrq941hoo41J3oIyu_xBrFOeWojBipToxIHqd93-fOkQ4wnWGsybnt3wvXJ7HCzvEbwXPbXpoJKuJ-B4ux738ahyBWEtPhC4Xq-kopCvtQLT_zMxF7sZ0P2kp_-Ge_fzPFtqeQ7GlUFPU-1IqF08SdJ4010puAaHgxXKcNlyFD1YDVQDsqanfICJ_BBN4JCnuSSYRHPn9LrdpqCCOfm5KmxSeLOp4H9GidGHxvVuJRPom4zLVS0sOP_m4JTaYuRQt_YcvkpRakyIOZzhhnA_XmS7OVf_IhPTSP2aliZ9VA630Ljq1h9ZflXylYLjRiHFkRrnnKylroiknAdbE0Qymv8SY158CUatqR6U2U2xIhrjLLkImiehSm_W1vCmed69lsKraRsSQ8llSzhw_L4fFPm7oM7hkXxpfhDYT4CKC-4U8TPvTT6jxZX5R8_9fIWqfZHmDuQIU8oiHAjEBS6yEvAWu7EqAd9ue8V45v0pMhPLrX68fOj0uuAxisvTEvCbhUCLZt1IsH4y5YXu4fE1s1zdPfal3FuMABTBzzdgHxg22NgJlLkiTkzJ5gidJb3n9hNlTTk_bCgpwwQx60hhUb8KvS9mnQOTrObEnfkMXDgmZxoeCSqJ4coFD2EHx1ivR0mBdpF3b_BpiC1BNK57BTPePRXkTmMFAP8YxQKp6kd3j3JxX8Q884P6Qc3_Lk2l",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d700000e83513fe_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-11T12:55:00.000Z",
+      "utc_departure": "2024-04-11T16:55:00.000Z",
+      "local_arrival": "2024-04-11T16:42:00.000Z",
+      "utc_arrival": "2024-04-11T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 79.398391,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 72,
+      "conversion": {
+        "CAD": 72,
+        "EUR": 49.13180014821426
+      },
+      "fare": {
+        "adults": 72,
+        "children": 72,
+        "infants": 72
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d700000e83513fe_0",
+          "combination_id": "0eae06ae4d700000e83513fe",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-11T12:55:00.000Z",
+          "utc_departure": "2024-04-11T16:55:00.000Z",
+          "local_arrival": "2024-04-11T16:42:00.000Z",
+          "utc_arrival": "2024-04-11T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "Y9",
+          "operating_flight_no": "543",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "G53phdBIVSAkGJcNx9yMyG7rH9o-LaMmoI0zkY995W7ImwEa9V6CsLgg4DyvmHLyrAH8W11hi8t9vOimMBPlGhvnnfG9qfOK1D8oHuc-_N8uCMTkSS38uz9Om14XWzGK1G6YJnr6FtrZ-XgjT8CEJwdYAqHIAF-R8EHtYTTMFcGjIOcugrAzOBoSU-MQ8GAVQS8dxSv-RDaLCYbWoXUnPX9w1UPP_RowEPriOGYdFYQEF3UnpuCxAFE9ZqXf5IN7yh9ivHkKPUFUU1Btdtp5ZaDAtaTVuo2SgMTfgjHfyD4Jp3jkSgh-7Pr3ifkOWOBUV4YJC44nw2SZH8Qb4x3QpEFv91i4rMEFzF1Q3Zo4osTH4Ti-YKRCKq6e6Nb2URAf6mtz43e6eaY1npRqSSRuBXPzEoD1BVw6tBpTgfdlvoAz0a-p5N4B7LJRRhr61FFkn3LV3BzMdBF0d3Tbyd79dCecxZVTVmPwvYl-BwplBg841v58mT6tEwT9ZroQj7GoKHgZOFEooa7c_iUeRaR7IvfyoCCUb0IKUmAPhuIJeWLj4dj2MBxQc8UAqWxs9q67V85fyti3WIVXqJYbles9bPwMoQlk1aFcmzmyA_i1RLH34UABsVN8OxXc3afb_zOyM4WxpQKJcvh3dfwDjxO63nN1Xt5z4rRWf66ryTGWCoGJjTjLsydjZOh2dFPxeo0iBs1le119UWnN8krENldzHoA==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d700000e83513fe_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=G53phdBIVSAkGJcNx9yMyG7rH9o-LaMmoI0zkY995W7ImwEa9V6CsLgg4DyvmHLyrAH8W11hi8t9vOimMBPlGhvnnfG9qfOK1D8oHuc-_N8uCMTkSS38uz9Om14XWzGK1G6YJnr6FtrZ-XgjT8CEJwdYAqHIAF-R8EHtYTTMFcGjIOcugrAzOBoSU-MQ8GAVQS8dxSv-RDaLCYbWoXUnPX9w1UPP_RowEPriOGYdFYQEF3UnpuCxAFE9ZqXf5IN7yh9ivHkKPUFUU1Btdtp5ZaDAtaTVuo2SgMTfgjHfyD4Jp3jkSgh-7Pr3ifkOWOBUV4YJC44nw2SZH8Qb4x3QpEFv91i4rMEFzF1Q3Zo4osTH4Ti-YKRCKq6e6Nb2URAf6mtz43e6eaY1npRqSSRuBXPzEoD1BVw6tBpTgfdlvoAz0a-p5N4B7LJRRhr61FFkn3LV3BzMdBF0d3Tbyd79dCecxZVTVmPwvYl-BwplBg841v58mT6tEwT9ZroQj7GoKHgZOFEooa7c_iUeRaR7IvfyoCCUb0IKUmAPhuIJeWLj4dj2MBxQc8UAqWxs9q67V85fyti3WIVXqJYbles9bPwMoQlk1aFcmzmyA_i1RLH34UABsVN8OxXc3afb_zOyM4WxpQKJcvh3dfwDjxO63nN1Xt5z4rRWf66ryTGWCoGJjTjLsydjZOh2dFPxeo0iBs1le119UWnN8krENldzHoA==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d720000f63af3d1_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-13T12:55:00.000Z",
+      "utc_departure": "2024-04-13T16:55:00.000Z",
+      "local_arrival": "2024-04-13T16:42:00.000Z",
+      "utc_arrival": "2024-04-13T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 79.398391,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 72,
+      "conversion": {
+        "CAD": 72,
+        "EUR": 49.13180014821426
+      },
+      "fare": {
+        "adults": 72,
+        "children": 72,
+        "infants": 72
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 365.0892,
+            "itinerary_price_remaining": 72,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 249.1318,
+            "itinerary_price_remaining": 49.1318,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d720000f63af3d1_0",
+          "combination_id": "0eae06ae4d720000f63af3d1",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-13T12:55:00.000Z",
+          "utc_departure": "2024-04-13T16:55:00.000Z",
+          "local_arrival": "2024-04-13T16:42:00.000Z",
+          "utc_arrival": "2024-04-13T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "Y9",
+          "operating_flight_no": "543",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GpfpPMOzc_HPJiEt5E9WtZlsGakcfV9_sGR27gRkzi3smwVbI9BkqP-Dlnd56YGmIb8xArMqYTi96JoFq6kotbobTRCJWIBJLYP29_YIMUFkJCcImRIB43nb-AzvzMHWOBjQkaBFKuim5QP7NatBYg7qXHFIq24K5_DK4_kycyxtBOfawdHMJ0P-JlazKwfsstOTxPoAT8bJqvZ2miKuUSowxt9a9FO_JkDLOmw24poHL8R0SAzLiRs-X4lzSSKfPS3m3IxEZh6ZNLRCQGLZGzAl13gDK_6LPkwDeWD7ExRNRUy-ksQUNzAC449-D-tbARbhVlk8GutFekrl2osZVdYFDnF3ZuVWH8SaKiEE1X0U9N6peECO_06zNAQ3q_jbBzOqViBhutFORe4bpPn7VqKFKCM86W_dPwedtOXv910F0SgmBiqqcDnZuDEGYNy-MALJbhYYC2RozxTLoGXLup7a2TpXnE7viccJPRYsussIDsBTrmV2SK2Vm9e9T-u3OdJs7qGflUMWv5KFJxP48TYv99fRbJmsSpj2N4Wl44TjlqUtYd-WG5HHhaaaaSq59anBfuo9Z5a_z6LCICSqA3muITonJZ1ke_f4paoMsCw5lFeNamhR39F8Fi5mbd5cxMsU784oCsrPTyMJfzwDF6Ch8EwV05mWajcs9oEB37TQhvVto7OwI0fWt2-t5Snju",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d720000f63af3d1_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=GpfpPMOzc_HPJiEt5E9WtZlsGakcfV9_sGR27gRkzi3smwVbI9BkqP-Dlnd56YGmIb8xArMqYTi96JoFq6kotbobTRCJWIBJLYP29_YIMUFkJCcImRIB43nb-AzvzMHWOBjQkaBFKuim5QP7NatBYg7qXHFIq24K5_DK4_kycyxtBOfawdHMJ0P-JlazKwfsstOTxPoAT8bJqvZ2miKuUSowxt9a9FO_JkDLOmw24poHL8R0SAzLiRs-X4lzSSKfPS3m3IxEZh6ZNLRCQGLZGzAl13gDK_6LPkwDeWD7ExRNRUy-ksQUNzAC449-D-tbARbhVlk8GutFekrl2osZVdYFDnF3ZuVWH8SaKiEE1X0U9N6peECO_06zNAQ3q_jbBzOqViBhutFORe4bpPn7VqKFKCM86W_dPwedtOXv910F0SgmBiqqcDnZuDEGYNy-MALJbhYYC2RozxTLoGXLup7a2TpXnE7viccJPRYsussIDsBTrmV2SK2Vm9e9T-u3OdJs7qGflUMWv5KFJxP48TYv99fRbJmsSpj2N4Wl44TjlqUtYd-WG5HHhaaaaSq59anBfuo9Z5a_z6LCICSqA3muITonJZ1ke_f4paoMsCw5lFeNamhR39F8Fi5mbd5cxMsU784oCsrPTyMJfzwDF6Ch8EwV05mWajcs9oEB37TQhvVto7OwI0fWt2-t5Snju",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d79000053e6e4ff_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-20T12:55:00.000Z",
+      "utc_departure": "2024-04-20T16:55:00.000Z",
+      "local_arrival": "2024-04-20T16:42:00.000Z",
+      "utc_arrival": "2024-04-20T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 80.080777,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 73,
+      "conversion": {
+        "CAD": 73,
+        "EUR": 49.8141862613839
+      },
+      "fare": {
+        "adults": 73,
+        "children": 73,
+        "infants": 73
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 366.0892,
+            "itinerary_price_remaining": 73,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 366.0892,
+            "itinerary_price_remaining": 73,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 249.814186,
+            "itinerary_price_remaining": 49.814186,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 249.814186,
+            "itinerary_price_remaining": 49.814186,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d79000053e6e4ff_0",
+          "combination_id": "0eae06ae4d79000053e6e4ff",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-20T12:55:00.000Z",
+          "utc_departure": "2024-04-20T16:55:00.000Z",
+          "local_arrival": "2024-04-20T16:42:00.000Z",
+          "utc_arrival": "2024-04-20T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "Y9",
+          "operating_flight_no": "543",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "Gk7IZR-ERzoItEh4PF6EKvbkf6COcUXDQTyjs0X_JjNFs2RluxDAPu3r3T1o21zkUk_AVtC46LawYYKBeG5pmh6SAPBrtkQMiimtvjWohWxTKNUy--2B16rk5RldQH24ByTCUcjX3zCSRXd5WPMYFQjuGlAHKTycsaLE4TOw1bHdtdUjcqGMwn6ZBjlPynqNJ_c1ovACaZ62OrtMiLhRXIEKva4aEG18SWTUOL4Z8BihCh82yAd2POkRHin1GE03foR-971_sd6Pq7uIHZnDU5MU9JERqO-pwIc-CC95PCnGFa5iwM2P8G7F7cZsVjvA4Zj_bv1IAFEvTRg9cBERbIRqZEzMD7BUysJTd6zPzEapO07kDsodrlAteCc44OpmSfQZWiKv5DKRaojAhI3yoEYBAxhuYrm8gGq-cFWifnvFiKJNGkxWz3HFdqWMWEWx6v2OkfqVqHEIJzEtdz5wviDLjAw-9qECvbPEFyksPtmK0Phu8zz1-PRzdusof2n0WEZnteXYbb35gBVI0OAny4AKMWnfUzSK1EQmYH6RaThr1_dEscf7wGhEuSUg8fjd-V1LEX96gHlefj7dWy5wCbZJ3Ayv1kdNPJOFduqUZDYJMniu_-UX_vVSs-WHZIz4j_W3QQtompgsnyQrjHcuOvGt2hHUVpRxDCF31zqG-s7A2_BkoMAm_xxKsZzRuRJYYWaNVj990iPM1a4EMIxJPmQ==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d79000053e6e4ff_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=Gk7IZR-ERzoItEh4PF6EKvbkf6COcUXDQTyjs0X_JjNFs2RluxDAPu3r3T1o21zkUk_AVtC46LawYYKBeG5pmh6SAPBrtkQMiimtvjWohWxTKNUy--2B16rk5RldQH24ByTCUcjX3zCSRXd5WPMYFQjuGlAHKTycsaLE4TOw1bHdtdUjcqGMwn6ZBjlPynqNJ_c1ovACaZ62OrtMiLhRXIEKva4aEG18SWTUOL4Z8BihCh82yAd2POkRHin1GE03foR-971_sd6Pq7uIHZnDU5MU9JERqO-pwIc-CC95PCnGFa5iwM2P8G7F7cZsVjvA4Zj_bv1IAFEvTRg9cBERbIRqZEzMD7BUysJTd6zPzEapO07kDsodrlAteCc44OpmSfQZWiKv5DKRaojAhI3yoEYBAxhuYrm8gGq-cFWifnvFiKJNGkxWz3HFdqWMWEWx6v2OkfqVqHEIJzEtdz5wviDLjAw-9qECvbPEFyksPtmK0Phu8zz1-PRzdusof2n0WEZnteXYbb35gBVI0OAny4AKMWnfUzSK1EQmYH6RaThr1_dEscf7wGhEuSUg8fjd-V1LEX96gHlefj7dWy5wCbZJ3Ayv1kdNPJOFduqUZDYJMniu_-UX_vVSs-WHZIz4j_W3QQtompgsnyQrjHcuOvGt2hHUVpRxDCF31zqG-s7A2_BkoMAm_xxKsZzRuRJYYWaNVj990iPM1a4EMIxJPmQ==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d7c0000548e0be7_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-23T12:55:00.000Z",
+      "utc_departure": "2024-04-23T16:55:00.000Z",
+      "local_arrival": "2024-04-23T16:42:00.000Z",
+      "utc_arrival": "2024-04-23T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 80.763163,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 74,
+      "conversion": {
+        "CAD": 74,
+        "EUR": 50.49657237455355
+      },
+      "fare": {
+        "adults": 74,
+        "children": 74,
+        "infants": 74
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 367.089199,
+            "itinerary_price_remaining": 73.999999,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 367.089199,
+            "itinerary_price_remaining": 73.999999,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 250.496572,
+            "itinerary_price_remaining": 50.496572,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 250.496572,
+            "itinerary_price_remaining": 50.496572,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": 7
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d7c0000548e0be7_0",
+          "combination_id": "0eae06ae4d7c0000548e0be7",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-23T12:55:00.000Z",
+          "utc_departure": "2024-04-23T16:55:00.000Z",
+          "local_arrival": "2024-04-23T16:42:00.000Z",
+          "utc_arrival": "2024-04-23T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "COW",
+          "fare_category": "M",
+          "fare_classes": "C",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "Gx5ff9RBZsPZrwjelG8weAZI13T9_X2E6zvErBoN6UK4hnV0AQ3c-z64k2dL8RkxijPdtvt6oP41auPkhl6pdSEbhmsXuFX_AGMmJnotN4JBWD8NrnUsm03nqwHQh5b4k8i73t7oUnFXaTIxREOuFGSWkjP-AVarz_amlzxHGrDYVUmLgtc5gCR0Jh_P_Vu2FRDhqxZaxoR90sDMN0X77YAieL89c1FMrOv42vluShgPTCsG1UO55kZwECMwabGg7-prs2s2FA5Xv7I5F8KDF7TEmwHE5DMta8os7eLhPAvAuMxmU0oObbOnnqXjrJOUrZXIia1HNJ_nY0MRAec_vSMowJsJ8geucWDxJCuSASBrHgS3idUb3nmRDoKVzDKt9nWfZo1tPQ_swbxXowrG1YDGD3qyphONC4Xap9lziMJgKOaiDm4mP4s9vb6OnXMmvcUuOrQxm9zvckjFByquf93hAsNZ8dEBmS4pk-JjeZ0tjxy-H_k4DFfL7Hv5_PoWwjBvVintwvp8lUYeanxSHwKXfQ_McKDRXrjcff-MyMCo3TnWbvuUH6tKtYKUgvvRCKoECY96IWSkk3PDgj5Md12CbcVWHsxZ_AEVszagOCEpptWmd_H8jRafSL9eRzZvHWcQErqcCslZnCwmxk_0AxBWi4RrZS2xyOOVLjmHKG6auLP2Z8b-eUdX4tfgCcP0n9gzKLMN4ZBBg07NT5yfYqw==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d7c0000548e0be7_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=Gx5ff9RBZsPZrwjelG8weAZI13T9_X2E6zvErBoN6UK4hnV0AQ3c-z64k2dL8RkxijPdtvt6oP41auPkhl6pdSEbhmsXuFX_AGMmJnotN4JBWD8NrnUsm03nqwHQh5b4k8i73t7oUnFXaTIxREOuFGSWkjP-AVarz_amlzxHGrDYVUmLgtc5gCR0Jh_P_Vu2FRDhqxZaxoR90sDMN0X77YAieL89c1FMrOv42vluShgPTCsG1UO55kZwECMwabGg7-prs2s2FA5Xv7I5F8KDF7TEmwHE5DMta8os7eLhPAvAuMxmU0oObbOnnqXjrJOUrZXIia1HNJ_nY0MRAec_vSMowJsJ8geucWDxJCuSASBrHgS3idUb3nmRDoKVzDKt9nWfZo1tPQ_swbxXowrG1YDGD3qyphONC4Xap9lziMJgKOaiDm4mP4s9vb6OnXMmvcUuOrQxm9zvckjFByquf93hAsNZ8dEBmS4pk-JjeZ0tjxy-H_k4DFfL7Hv5_PoWwjBvVintwvp8lUYeanxSHwKXfQ_McKDRXrjcff-MyMCo3TnWbvuUH6tKtYKUgvvRCKoECY96IWSkk3PDgj5Md12CbcVWHsxZ_AEVszagOCEpptWmd_H8jRafSL9eRzZvHWcQErqcCslZnCwmxk_0AxBWi4RrZS2xyOOVLjmHKG6auLP2Z8b-eUdX4tfgCcP0n9gzKLMN4ZBBg07NT5yfYqw==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d800000ee6c4936_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-27T12:55:00.000Z",
+      "utc_departure": "2024-04-27T16:55:00.000Z",
+      "local_arrival": "2024-04-27T16:42:00.000Z",
+      "utc_arrival": "2024-04-27T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 80.763163,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 74,
+      "conversion": {
+        "CAD": 74,
+        "EUR": 50.49657237455355
+      },
+      "fare": {
+        "adults": 74,
+        "children": 74,
+        "infants": 74
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 367.089199,
+            "itinerary_price_remaining": 73.999999,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 367.089199,
+            "itinerary_price_remaining": 73.999999,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 250.496572,
+            "itinerary_price_remaining": 50.496572,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 250.496572,
+            "itinerary_price_remaining": 50.496572,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d800000ee6c4936_0",
+          "combination_id": "0eae06ae4d800000ee6c4936",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-27T12:55:00.000Z",
+          "utc_departure": "2024-04-27T16:55:00.000Z",
+          "local_arrival": "2024-04-27T16:42:00.000Z",
+          "utc_arrival": "2024-04-27T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "COW",
+          "fare_category": "M",
+          "fare_classes": "C",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "G0EZ5z9ohpGpEbFFQSXT8_yx6KuHP0lOQgXsfcRguBybDUzr6B5hEk9Nn4XLUMh3JeydDO96t6zTDD7zeJhuf-JFtlCy62-p0qnw_2rlb3sMhbaWxgnigJUiFQmpVTKG0S1KwcR59oOTVaQWlS6ixwa9TyJ77rIcH1fIszpYJxJ55-0UKyPoxHsFxHyRX09vrZoFmdZDXspkF_0N83MGaG2jp4MYs5Swk3X0rlPzNuhl5A7Xb7N9u1kX8e3l0hIsOyAYQEsvpZ6DJ4mYEkT5ZW6dj5wS2FRT-JGMFY6UiZagQ9DUFSgHTuK40hSD17bLcSQJYN3-qozRP8yQzw-E1hvha1qDe6NSOGJ-dwxRLFjEP_IsOp9LarWdEij9Q2wEwt3m9PFKnIP2OFCpdYWsKW-Citsgtx1-kXTF653wIg03f-IhyIruSmma5_6MyBZK3t1Ry6eQ10M8QfEMLlIqXuMR5Kr5NsT4KSOG7DxunBgep8lhxYffdjGtQWMTvvjqVIgybnhkgAxeTBLWALMPSppuaY1NxmrEbUXI3uDcCYR0aGLTKuwYifvYrP0GsXHxZdmp38WFhVfitkwePXcuNTJxn-x72eGep9cp2sje3WyRdYKDVXKZK7ccaTqi1pqO9ogJ7Ri2HZgBmAPJOD3b7LMbZXA829oRQekOr2VvtvBodAro7tjy97PNIfQgdfqOE",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d800000ee6c4936_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=G0EZ5z9ohpGpEbFFQSXT8_yx6KuHP0lOQgXsfcRguBybDUzr6B5hEk9Nn4XLUMh3JeydDO96t6zTDD7zeJhuf-JFtlCy62-p0qnw_2rlb3sMhbaWxgnigJUiFQmpVTKG0S1KwcR59oOTVaQWlS6ixwa9TyJ77rIcH1fIszpYJxJ55-0UKyPoxHsFxHyRX09vrZoFmdZDXspkF_0N83MGaG2jp4MYs5Swk3X0rlPzNuhl5A7Xb7N9u1kX8e3l0hIsOyAYQEsvpZ6DJ4mYEkT5ZW6dj5wS2FRT-JGMFY6UiZagQ9DUFSgHTuK40hSD17bLcSQJYN3-qozRP8yQzw-E1hvha1qDe6NSOGJ-dwxRLFjEP_IsOp9LarWdEij9Q2wEwt3m9PFKnIP2OFCpdYWsKW-Citsgtx1-kXTF653wIg03f-IhyIruSmma5_6MyBZK3t1Ry6eQ10M8QfEMLlIqXuMR5Kr5NsT4KSOG7DxunBgep8lhxYffdjGtQWMTvvjqVIgybnhkgAxeTBLWALMPSppuaY1NxmrEbUXI3uDcCYR0aGLTKuwYifvYrP0GsXHxZdmp38WFhVfitkwePXcuNTJxn-x72eGep9cp2sje3WyRdYKDVXKZK7ccaTqi1pqO9ogJ7Ri2HZgBmAPJOD3b7LMbZXA829oRQekOr2VvtvBodAro7tjy97PNIfQgdfqOE",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d8100006225cc9f_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-28T12:55:00.000Z",
+      "utc_departure": "2024-04-28T16:55:00.000Z",
+      "local_arrival": "2024-04-28T16:42:00.000Z",
+      "utc_arrival": "2024-04-28T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 80.763163,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 74,
+      "conversion": {
+        "CAD": 74,
+        "EUR": 50.49657237455355
+      },
+      "fare": {
+        "adults": 74,
+        "children": 74,
+        "infants": 74
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 367.089199,
+            "itinerary_price_remaining": 73.999999,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 367.089199,
+            "itinerary_price_remaining": 73.999999,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 250.496572,
+            "itinerary_price_remaining": 50.496572,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 250.496572,
+            "itinerary_price_remaining": 50.496572,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d8100006225cc9f_0",
+          "combination_id": "0eae06ae4d8100006225cc9f",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-28T12:55:00.000Z",
+          "utc_departure": "2024-04-28T16:55:00.000Z",
+          "local_arrival": "2024-04-28T16:42:00.000Z",
+          "utc_arrival": "2024-04-28T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "COW",
+          "fare_category": "M",
+          "fare_classes": "C",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GqTUfM60bIuOifxjfdRxpYFaSOfsBuHDMo7EOjAYnmR_-CmvK8GnY3P0U1DBHvxsqxQaHY0P_1HldrHtBAiywwjDPHUbS5DST4JisRhY9GnkOLAA0GNa9eYBqDudSO2PYpKeQAWLPYRbU5D216bIqyrKGESR0vK05IERfpx0ebWXScD6uoR5l2aKe6Ol4bgi49vRPC8xlUagPShPFHNaLphAnsfTcqObOxAcELufUDJ84SV8_543etlbTlcZMGBGL7fG4dD02cB_tNe7F-KLM9pFelND41uh3aLVzZ_mzrlv6IrYM05refIUCAiIAZZvONuoQ7H4XEg6qwACH-a7m3FwPxzeDCw7fMKp4qSycGQ5PclL4Pjwroj92_Ntkt2tEXDq7g_KiQl8f_P6fMHr3E5L-w7TrYc8CJJd_9Ns5b8E76NqWUwZ5Z1iUlmdmxSvT41ZGpbmGuVVMIxBfdmsJK8WELpRZmT9ILv1rnATZuVFWkhW3RctHQGwT-PdWBoK3J9XKBuaAeLdIcUO6B0U7WiOBEF6AJ_RM1wpfa2oIkBntV0IPcj5TS3S7tADjFL2sFd3BN_84tHfxP1psPGFmS6oTVs-JCT-fFqeV0Ac3PrEKEbpB7ehEN0sAfq3ONu4WiKc7hJSDxmeEXZxcHoH7jb23HBNmgE4OrkroY3U_wHONVPzCxRyZTwDs6Kp6ZKAJfY_I2EKl1bHCERlxQ4g3Xg==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d8100006225cc9f_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=GqTUfM60bIuOifxjfdRxpYFaSOfsBuHDMo7EOjAYnmR_-CmvK8GnY3P0U1DBHvxsqxQaHY0P_1HldrHtBAiywwjDPHUbS5DST4JisRhY9GnkOLAA0GNa9eYBqDudSO2PYpKeQAWLPYRbU5D216bIqyrKGESR0vK05IERfpx0ebWXScD6uoR5l2aKe6Ol4bgi49vRPC8xlUagPShPFHNaLphAnsfTcqObOxAcELufUDJ84SV8_543etlbTlcZMGBGL7fG4dD02cB_tNe7F-KLM9pFelND41uh3aLVzZ_mzrlv6IrYM05refIUCAiIAZZvONuoQ7H4XEg6qwACH-a7m3FwPxzeDCw7fMKp4qSycGQ5PclL4Pjwroj92_Ntkt2tEXDq7g_KiQl8f_P6fMHr3E5L-w7TrYc8CJJd_9Ns5b8E76NqWUwZ5Z1iUlmdmxSvT41ZGpbmGuVVMIxBfdmsJK8WELpRZmT9ILv1rnATZuVFWkhW3RctHQGwT-PdWBoK3J9XKBuaAeLdIcUO6B0U7WiOBEF6AJ_RM1wpfa2oIkBntV0IPcj5TS3S7tADjFL2sFd3BN_84tHfxP1psPGFmS6oTVs-JCT-fFqeV0Ac3PrEKEbpB7ehEN0sAfq3ONu4WiKc7hJSDxmeEXZxcHoH7jb23HBNmgE4OrkroY3U_wHONVPzCxRyZTwDs6Kp6ZKAJfY_I2EKl1bHCERlxQ4g3Xg==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae06ae4d8300004cb9c5b4_0",
+      "flyFrom": "YUL",
+      "flyTo": "YYT",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Saint-Jean de Terre-Neuve",
+      "cityCodeTo": "YYT",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "local_departure": "2024-04-30T12:55:00.000Z",
+      "utc_departure": "2024-04-30T16:55:00.000Z",
+      "local_arrival": "2024-04-30T16:42:00.000Z",
+      "utc_arrival": "2024-04-30T19:12:00.000Z",
+      "nightsInDest": null,
+      "quality": 84.85748,
+      "distance": 1619.58,
+      "duration": {
+        "departure": 8220,
+        "return": 0,
+        "total": 8220
+      },
+      "price": 80,
+      "conversion": {
+        "CAD": 80,
+        "EUR": 54.5908890535714
+      },
+      "fare": {
+        "adults": 80,
+        "children": 80,
+        "infants": 80
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 373.0892,
+            "itinerary_price_remaining": 80,
+            "fare_lock_kind": "fee",
+            "price": 36.63615,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 373.0892,
+            "itinerary_price_remaining": 80,
+            "fare_lock_kind": "fee",
+            "price": 7.32723,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 373.0892,
+            "itinerary_price_remaining": 80,
+            "fare_lock_kind": "fee",
+            "price": 14.65446,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 254.590889,
+            "itinerary_price_remaining": 54.590889,
+            "fare_lock_kind": "fee",
+            "price": 25,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 254.590889,
+            "itinerary_price_remaining": 54.590889,
+            "fare_lock_kind": "fee",
+            "price": 5,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 254.590889,
+            "itinerary_price_remaining": 54.590889,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 10,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Y9"
+      ],
+      "route": [
+        {
+          "id": "0eae06ae4d8300004cb9c5b4_0",
+          "combination_id": "0eae06ae4d8300004cb9c5b4",
+          "flyFrom": "YUL",
+          "flyTo": "YYT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Saint-Jean de Terre-Neuve",
+          "cityCodeTo": "YYT",
+          "local_departure": "2024-04-30T12:55:00.000Z",
+          "utc_departure": "2024-04-30T16:55:00.000Z",
+          "local_arrival": "2024-04-30T16:42:00.000Z",
+          "utc_arrival": "2024-04-30T19:12:00.000Z",
+          "airline": "Y9",
+          "flight_no": 543,
+          "operating_carrier": "Y9",
+          "operating_flight_no": "543",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GK4EjQYkAIAi993vofwRk2j1ko_dWlyyW8QkY71KKer5gHMlmKu5tlOzYZl3rtpXFiWKU-CTpYFxINu4duwzZcFDZbUiNefF53Y7RYt09C5ifdOtUDOhHYhsWKeVVgMOcoeOkGtNELOP1Gi3CWGGtXK832z_12j7sFoadHDdEQ7kC8P0mrYXcuBZiooPTbOE5uzDDvmyKJmFl1gPYFox_aQy0I7FHcle31PHvT7eoPGXU90H0JbX_fFoXtS5QcVIsoUV_74ZyJorlkXE3qVaiDsMKrXYhnaWFmx5miWmGyYVe6xgo-OvOCYUNRiRsTfIAn42RvAZZXc6McB4GComsB0GuvdN1lBxlE4a0JsXzCl_Ufp60oVbgRK4d4jCq8DHjjwDeC18Z6x-CjLqg7MoWmV53rzs2Rss0Q02UJ7CG_4wYW7GEX8AOTlGZNyKddoqJCAvs_TSBRT4PICoGRfW5Zx10c4et_1jW5brKZ6LO_KUqmRFkF4JbhRG2z8mS1I8xCakMv-jyz80NASz-p1KzeQXwJ4t8nCS8se3_Xcq9nBfmrQ47a-F5qtTIFAdDFF8q8LHkzS8uoKi8mUvlK_62of4J1rT7svRGuXg13hn0psNozdIqBT9H5BgTndwwa_NOFC1FxjabypOHtksqNMHFbUiRSYHpQjNXEqp303q4hM2gZm0D-yefMrnmV4r3WK87C5ENjPFjHPBQmjrIIWhWvw==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae06ae4d8300004cb9c5b4_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=YYT\\u0026booking_token=GK4EjQYkAIAi993vofwRk2j1ko_dWlyyW8QkY71KKer5gHMlmKu5tlOzYZl3rtpXFiWKU-CTpYFxINu4duwzZcFDZbUiNefF53Y7RYt09C5ifdOtUDOhHYhsWKeVVgMOcoeOkGtNELOP1Gi3CWGGtXK832z_12j7sFoadHDdEQ7kC8P0mrYXcuBZiooPTbOE5uzDDvmyKJmFl1gPYFox_aQy0I7FHcle31PHvT7eoPGXU90H0JbX_fFoXtS5QcVIsoUV_74ZyJorlkXE3qVaiDsMKrXYhnaWFmx5miWmGyYVe6xgo-OvOCYUNRiRsTfIAn42RvAZZXc6McB4GComsB0GuvdN1lBxlE4a0JsXzCl_Ufp60oVbgRK4d4jCq8DHjjwDeC18Z6x-CjLqg7MoWmV53rzs2Rss0Q02UJ7CG_4wYW7GEX8AOTlGZNyKddoqJCAvs_TSBRT4PICoGRfW5Zx10c4et_1jW5brKZ6LO_KUqmRFkF4JbhRG2z8mS1I8xCakMv-jyz80NASz-p1KzeQXwJ4t8nCS8se3_Xcq9nBfmrQ47a-F5qtTIFAdDFF8q8LHkzS8uoKi8mUvlK_62of4J1rT7svRGuXg13hn0psNozdIqBT9H5BgTndwwa_NOFC1FxjabypOHtksqNMHFbUiRSYHpQjNXEqp303q4hM2gZm0D-yefMrnmV4r3WK87C5ENjPFjHPBQmjrIIWhWvw==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a0000be625a4f_0|0eae0f6b4d2a0000be625a4f_1",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T07:16:00.000Z",
+      "utc_departure": "2024-02-01T12:16:00.000Z",
+      "local_arrival": "2024-02-02T00:23:00.000Z",
+      "utc_arrival": "2024-02-02T05:23:00.000Z",
+      "nightsInDest": null,
+      "quality": 285.410183,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 61620,
+        "return": 0,
+        "total": 61620
+      },
+      "price": 200,
+      "conversion": {
+        "CAD": 200,
+        "EUR": 136.4772226339285
+      },
+      "fare": {
+        "adults": 200,
+        "children": 200,
+        "infants": 200
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 493.089199,
+            "itinerary_price_remaining": 199.999999,
+            "fare_lock_kind": "fee",
+            "price": 50.000001,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 493.089199,
+            "itinerary_price_remaining": 199.999999,
+            "fare_lock_kind": "fee",
+            "price": 10,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 493.089199,
+            "itinerary_price_remaining": 199.999999,
+            "fare_lock_kind": "fee",
+            "price": 20,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 336.477222,
+            "itinerary_price_remaining": 136.477222,
+            "fare_lock_kind": "fee",
+            "price": 34.119306,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 336.477222,
+            "itinerary_price_remaining": 136.477222,
+            "fare_lock_kind": "fee",
+            "price": 6.823861,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 336.477222,
+            "itinerary_price_remaining": 136.477222,
+            "fare_lock_kind": "fee",
+            "price": 13.647722,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "personal_item_height": 35,
+        "personal_item_length": 45,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AA"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a0000be625a4f_0",
+          "combination_id": "0eae0f6b4d2a0000be625a4f",
+          "flyFrom": "YUL",
+          "flyTo": "CLT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Charlotte",
+          "cityCodeTo": "CLT",
+          "local_departure": "2024-02-01T07:16:00.000Z",
+          "utc_departure": "2024-02-01T12:16:00.000Z",
+          "local_arrival": "2024-02-01T10:16:00.000Z",
+          "utc_arrival": "2024-02-01T15:16:00.000Z",
+          "airline": "AA",
+          "flight_no": 5037,
+          "operating_carrier": "AA",
+          "operating_flight_no": "5037",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae0f6b4d2a0000be625a4f_1",
+          "combination_id": "0eae0f6b4d2a0000be625a4f",
+          "flyFrom": "CLT",
+          "flyTo": "MIA",
+          "cityFrom": "Charlotte",
+          "cityCodeFrom": "CLT",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-01T22:20:00.000Z",
+          "utc_departure": "2024-02-02T03:20:00.000Z",
+          "local_arrival": "2024-02-02T00:23:00.000Z",
+          "utc_arrival": "2024-02-02T05:23:00.000Z",
+          "airline": "AA",
+          "flight_no": 2178,
+          "operating_carrier": "AA",
+          "operating_flight_no": "2178",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GA41FnCcLeKHgQbgKslPyRjlmEa7vbe7xDDsFGdlUkqbBClGcjdoW6bIWZ1hbAM4VToH2EJBlq9gcXn9asBvpwn_o9kpvw9A4nti2gBA9xOh0Et3qT3DhJGgCjEf5z9tXlNnoFTmInY6WBLzJZbkbOjU6eNfc2DVKurh6WZVelxc54KCLHlDSjmtrSt1mpi8iwHdf3BMXnZSXesol456da0uej8niNvRcTzJYcHPm6qi0zB5AsFJQugbp4eB9jfbFJoSVWF0ohH4IzWHQ7ho9iyjKmfnPLm04nf3YGPwbUIVqoVG6hIZAxMXZFn3kvUTeHBdupAAbC20t8aIZQBTX1BIVl95DJZnRehDHlCMfrUGT7D_MfgEdFc_l8e34KfJvhG1JCfveWDqpUNWFDAUTsy8QsG9PRhSrc4yWofqHf0N44b6d2Ri3hqqM-OANia8JB3BEquSS30q_Nd0UY2vFiEOO2wgwrSOZ0sfjI3wlfMhGHVMG-WmglbgYa7aLl90IqXham-DL9pX36PfAaZKEx1JrDzdtPPrizPDAAeMYqdHIhZK0bxpF4ruwYq9rT7AxHkVRMXS6HLKGexMlPFBurrxacJzDS6QV8Lk6fjrtWWUjnXwwvrDvS2oUlP_9NgRqiElB84o73voRH43TCrEhNalaoDXR2VNk9zlLGgaUAA5Z2tjJSzWw6bxXdF2Sxztobk_ck5Ap5pXOS0DrNIe68T3V7CH0Pq8iXlXgOwEAXR-DBIbUbpGJh90s1GW4UnsC",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a0000be625a4f_0%7C0eae0f6b4d2a0000be625a4f_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=GA41FnCcLeKHgQbgKslPyRjlmEa7vbe7xDDsFGdlUkqbBClGcjdoW6bIWZ1hbAM4VToH2EJBlq9gcXn9asBvpwn_o9kpvw9A4nti2gBA9xOh0Et3qT3DhJGgCjEf5z9tXlNnoFTmInY6WBLzJZbkbOjU6eNfc2DVKurh6WZVelxc54KCLHlDSjmtrSt1mpi8iwHdf3BMXnZSXesol456da0uej8niNvRcTzJYcHPm6qi0zB5AsFJQugbp4eB9jfbFJoSVWF0ohH4IzWHQ7ho9iyjKmfnPLm04nf3YGPwbUIVqoVG6hIZAxMXZFn3kvUTeHBdupAAbC20t8aIZQBTX1BIVl95DJZnRehDHlCMfrUGT7D_MfgEdFc_l8e34KfJvhG1JCfveWDqpUNWFDAUTsy8QsG9PRhSrc4yWofqHf0N44b6d2Ri3hqqM-OANia8JB3BEquSS30q_Nd0UY2vFiEOO2wgwrSOZ0sfjI3wlfMhGHVMG-WmglbgYa7aLl90IqXham-DL9pX36PfAaZKEx1JrDzdtPPrizPDAAeMYqdHIhZK0bxpF4ruwYq9rT7AxHkVRMXS6HLKGexMlPFBurrxacJzDS6QV8Lk6fjrtWWUjnXwwvrDvS2oUlP_9NgRqiElB84o73voRH43TCrEhNalaoDXR2VNk9zlLGgaUAA5Z2tjJSzWw6bxXdF2Sxztobk_ck5Ap5pXOS0DrNIe68T3V7CH0Pq8iXlXgOwEAXR-DBIbUbpGJh90s1GW4UnsC",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a0000e5a089c0_0|0eae0f6b4d2a0000e5a089c0_1",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T07:19:00.000Z",
+      "utc_departure": "2024-02-01T12:19:00.000Z",
+      "local_arrival": "2024-02-01T16:24:00.000Z",
+      "utc_arrival": "2024-02-01T21:24:00.000Z",
+      "nightsInDest": null,
+      "quality": 222.50845,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 32700,
+        "return": 0,
+        "total": 32700
+      },
+      "price": 202,
+      "conversion": {
+        "CAD": 202,
+        "EUR": 137.8419948602678
+      },
+      "fare": {
+        "adults": 202,
+        "children": 202,
+        "infants": 202
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 495.0892,
+            "itinerary_price_remaining": 202,
+            "fare_lock_kind": "fee",
+            "price": 50.5,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 495.0892,
+            "itinerary_price_remaining": 202,
+            "fare_lock_kind": "fee",
+            "price": 10.1,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 495.0892,
+            "itinerary_price_remaining": 202,
+            "fare_lock_kind": "fee",
+            "price": 20.200001,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 337.841995,
+            "itinerary_price_remaining": 137.841995,
+            "fare_lock_kind": "fee",
+            "price": 34.460499,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 337.841995,
+            "itinerary_price_remaining": 137.841995,
+            "fare_lock_kind": "fee",
+            "price": 6.8921,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 337.841995,
+            "itinerary_price_remaining": 137.841995,
+            "fare_lock_kind": "fee",
+            "price": 13.7842,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "personal_item_height": 35,
+        "personal_item_length": 45,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AA"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a0000e5a089c0_0",
+          "combination_id": "0eae0f6b4d2a0000e5a089c0",
+          "flyFrom": "YUL",
+          "flyTo": "LGA",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "New York",
+          "cityCodeTo": "NYC",
+          "local_departure": "2024-02-01T07:19:00.000Z",
+          "utc_departure": "2024-02-01T12:19:00.000Z",
+          "local_arrival": "2024-02-01T09:05:00.000Z",
+          "utc_arrival": "2024-02-01T14:05:00.000Z",
+          "airline": "AA",
+          "flight_no": 4469,
+          "operating_carrier": "AA",
+          "operating_flight_no": "4469",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae0f6b4d2a0000e5a089c0_1",
+          "combination_id": "0eae0f6b4d2a0000e5a089c0",
+          "flyFrom": "LGA",
+          "flyTo": "MIA",
+          "cityFrom": "New York",
+          "cityCodeFrom": "NYC",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-01T12:59:00.000Z",
+          "utc_departure": "2024-02-01T17:59:00.000Z",
+          "local_arrival": "2024-02-01T16:24:00.000Z",
+          "utc_arrival": "2024-02-01T21:24:00.000Z",
+          "airline": "AA",
+          "flight_no": 1465,
+          "operating_carrier": "AA",
+          "operating_flight_no": "1465",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "Gp8kojD6NSjW62RdLI39bu2u4iM_YAX_IJ47SfBSHVPrwtvduCU7rm8Id84NJbc-l2VDtbTfOu5WwVF7IOEK3_chsPnchOP-aky2PkD2LAjUzH6RQDNbiUJCmrs96gRgHEtGuVUVUb4q-fNfaLIOiW1FSHvBgmIk835jiy89r48xgf3uX1PYFzI-8JiEW3Jja333fK-TOL5UGut6oxnpHH58ilTfX_Q2H0cG0yXUCVK1yxsUOVDdl47iMF9VTuVcb8GC-uxSEBPoqZ8ouhV29lV1RBsjnaZqWXs6k0NOUV4tOSdaMfgbL1ycqb-J2MmKa63fq0BcD8PbUOoNXe-ijcj1ItmqyydM9VF0E89orHS4Cy5sqPgRwnaTLunRciaXt3t8PkRCkrMDegJ0Pg1pkVimIz9d-G53YAS0ktuyjY_ASAyD0vc46ZeB487qFplGmNbsq3phVb3wg4Q8EDJqAYCTcs7JgAu2oKYO5oAksHtwmx1duxs8eFbKfcYRmDINnnZitfetVXwimusweqVdslwBM-MvUMTJJVi8eNqpgE39OLEWrEcenhxqredI9bf5JmhwWpLU_nbkGWibgdCklewlHJRxiUAn1NpXsAlWBN1tIgwQzE6nuB-BrIotDSFlxlr-JwYjavcxWNJOjl7_JsGNXGrihKFfdK9u8Uf-zX25sBEWpT1W1QA0pK2Mz8WMrBMpY-MCCQAB94gF3Yinf99hiH6zqS_v6I32AExXKevtB-9dJMds74x7za7h75ams",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a0000e5a089c0_0%7C0eae0f6b4d2a0000e5a089c0_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=Gp8kojD6NSjW62RdLI39bu2u4iM_YAX_IJ47SfBSHVPrwtvduCU7rm8Id84NJbc-l2VDtbTfOu5WwVF7IOEK3_chsPnchOP-aky2PkD2LAjUzH6RQDNbiUJCmrs96gRgHEtGuVUVUb4q-fNfaLIOiW1FSHvBgmIk835jiy89r48xgf3uX1PYFzI-8JiEW3Jja333fK-TOL5UGut6oxnpHH58ilTfX_Q2H0cG0yXUCVK1yxsUOVDdl47iMF9VTuVcb8GC-uxSEBPoqZ8ouhV29lV1RBsjnaZqWXs6k0NOUV4tOSdaMfgbL1ycqb-J2MmKa63fq0BcD8PbUOoNXe-ijcj1ItmqyydM9VF0E89orHS4Cy5sqPgRwnaTLunRciaXt3t8PkRCkrMDegJ0Pg1pkVimIz9d-G53YAS0ktuyjY_ASAyD0vc46ZeB487qFplGmNbsq3phVb3wg4Q8EDJqAYCTcs7JgAu2oKYO5oAksHtwmx1duxs8eFbKfcYRmDINnnZitfetVXwimusweqVdslwBM-MvUMTJJVi8eNqpgE39OLEWrEcenhxqredI9bf5JmhwWpLU_nbkGWibgdCklewlHJRxiUAn1NpXsAlWBN1tIgwQzE6nuB-BrIotDSFlxlr-JwYjavcxWNJOjl7_JsGNXGrihKFfdK9u8Uf-zX25sBEWpT1W1QA0pK2Mz8WMrBMpY-MCCQAB94gF3Yinf99hiH6zqS_v6I32AExXKevtB-9dJMds74x7za7h75ams",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a0000b2a88b5d_0|0eae0f6b4d2a0000b2a88b5d_1",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T17:33:00.000Z",
+      "utc_departure": "2024-02-01T22:33:00.000Z",
+      "local_arrival": "2024-02-02T09:18:00.000Z",
+      "utc_arrival": "2024-02-02T14:18:00.000Z",
+      "nightsInDest": null,
+      "quality": 275.84165,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 56700,
+        "return": 0,
+        "total": 56700
+      },
+      "price": 202,
+      "conversion": {
+        "CAD": 202,
+        "EUR": 137.8419948602678
+      },
+      "fare": {
+        "adults": 202,
+        "children": 202,
+        "infants": 202
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 495.0892,
+            "itinerary_price_remaining": 202,
+            "fare_lock_kind": "fee",
+            "price": 50.5,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 495.0892,
+            "itinerary_price_remaining": 202,
+            "fare_lock_kind": "fee",
+            "price": 10.1,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 495.0892,
+            "itinerary_price_remaining": 202,
+            "fare_lock_kind": "fee",
+            "price": 20.200001,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 337.841995,
+            "itinerary_price_remaining": 137.841995,
+            "fare_lock_kind": "fee",
+            "price": 34.460499,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 337.841995,
+            "itinerary_price_remaining": 137.841995,
+            "fare_lock_kind": "fee",
+            "price": 6.8921,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 337.841995,
+            "itinerary_price_remaining": 137.841995,
+            "fare_lock_kind": "fee",
+            "price": 13.7842,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "personal_item_height": 35,
+        "personal_item_length": 45,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AA"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a0000b2a88b5d_0",
+          "combination_id": "0eae0f6b4d2a0000b2a88b5d",
+          "flyFrom": "YUL",
+          "flyTo": "LGA",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "New York",
+          "cityCodeTo": "NYC",
+          "local_departure": "2024-02-01T17:33:00.000Z",
+          "utc_departure": "2024-02-01T22:33:00.000Z",
+          "local_arrival": "2024-02-01T19:19:00.000Z",
+          "utc_arrival": "2024-02-02T00:19:00.000Z",
+          "airline": "AA",
+          "flight_no": 4772,
+          "operating_carrier": "AA",
+          "operating_flight_no": "4772",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae0f6b4d2a0000b2a88b5d_1",
+          "combination_id": "0eae0f6b4d2a0000b2a88b5d",
+          "flyFrom": "LGA",
+          "flyTo": "MIA",
+          "cityFrom": "New York",
+          "cityCodeFrom": "NYC",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-02T06:00:00.000Z",
+          "utc_departure": "2024-02-02T11:00:00.000Z",
+          "local_arrival": "2024-02-02T09:18:00.000Z",
+          "utc_arrival": "2024-02-02T14:18:00.000Z",
+          "airline": "AA",
+          "flight_no": 1249,
+          "operating_carrier": "AA",
+          "operating_flight_no": "1249",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GT0Jitm5yCLFp2vqkMqXDaf9odrtcTXv6KtU1nziyA98iXQ39wjSIVr2_pSA0vXuT0HmDmEGcDTnrSBJ2T1C1bwriNTOd7RnGxzGM1hzz257EB6cgcv6bCg6tsAZf19gC5rpjm6RbUn9T5GY64DhXYOkY5-OctSsWGzMn2EORehhljNIO_Txp3RN_M0Bd4WM_jk7C-n8QiAVijHjUbEIMKhVsXyRCyaCM-ivQNXUqv6c6nV7yx5sIRhbZSZVvPI__FJqXIilK78OMLQIhxQsM0VpCKP6gEFpoqbiFBZr5ILDXiMnT7sbE2-0EaCMpJ6XxTfeKoZy3DfMm6Im46B8D23Mmzd5pIsswfeRAr-il8AYL9xO4t800AHvUsMPONu2xStdIFSNVFD7yBjJ71WaQUyydwLVavOLxf1xF1YeLKI-cgrRNpkZIwgza6rEzWebMlo1MErOVU9Be0pPWzZIwYWJ236V6PkZLOOaMIVOsbIuw9vyNMUer1CaUAPUbDRmjkkPCnTRGirCzCHPLU1mOhYzR9kdNHKXFNXioXAPXq7XJZC_GVVFwhhmhQcaCr_UiMnvwyTsxvBQB_EaEJYDxTi6gPgpbIlSZ_nbzsLUlixjLEAYHfiAmsStI3EAE_yXkhOWUrWrQXn0cVlCEE1KduIhKieaQh3gOjoGmsXkrwINpeXxBf5KBdL6Ilfhc5Ukq_mg7Z33lagKkWQPSs3-JzXdhJ2RIjhZrAXRSb0vhSvjzJHoxNH3_k08diN4eHoRh",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a0000b2a88b5d_0%7C0eae0f6b4d2a0000b2a88b5d_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=GT0Jitm5yCLFp2vqkMqXDaf9odrtcTXv6KtU1nziyA98iXQ39wjSIVr2_pSA0vXuT0HmDmEGcDTnrSBJ2T1C1bwriNTOd7RnGxzGM1hzz257EB6cgcv6bCg6tsAZf19gC5rpjm6RbUn9T5GY64DhXYOkY5-OctSsWGzMn2EORehhljNIO_Txp3RN_M0Bd4WM_jk7C-n8QiAVijHjUbEIMKhVsXyRCyaCM-ivQNXUqv6c6nV7yx5sIRhbZSZVvPI__FJqXIilK78OMLQIhxQsM0VpCKP6gEFpoqbiFBZr5ILDXiMnT7sbE2-0EaCMpJ6XxTfeKoZy3DfMm6Im46B8D23Mmzd5pIsswfeRAr-il8AYL9xO4t800AHvUsMPONu2xStdIFSNVFD7yBjJ71WaQUyydwLVavOLxf1xF1YeLKI-cgrRNpkZIwgza6rEzWebMlo1MErOVU9Be0pPWzZIwYWJ236V6PkZLOOaMIVOsbIuw9vyNMUer1CaUAPUbDRmjkkPCnTRGirCzCHPLU1mOhYzR9kdNHKXFNXioXAPXq7XJZC_GVVFwhhmhQcaCr_UiMnvwyTsxvBQB_EaEJYDxTi6gPgpbIlSZ_nbzsLUlixjLEAYHfiAmsStI3EAE_yXkhOWUrWrQXn0cVlCEE1KduIhKieaQh3gOjoGmsXkrwINpeXxBf5KBdL6Ilfhc5Ukq_mg7Z33lagKkWQPSs3-JzXdhJ2RIjhZrAXRSb0vhSvjzJHoxNH3_k08diN4eHoRh",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae1cfb4d2a00006826ae1d_0",
+      "flyFrom": "YUL",
+      "flyTo": "CUN",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo":"Canc\xc3\xban",
+      "cityCodeTo": "CUN",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "MX",
+        "name": "Mexique"
+      },
+      "local_departure": "2024-02-01T13:30:00.000Z",
+      "utc_departure": "2024-02-01T18:30:00.000Z",
+      "local_arrival": "2024-02-01T18:35:00.000Z",
+      "utc_arrival": "2024-02-01T23:35:00.000Z",
+      "nightsInDest": null,
+      "quality": 215.756816,
+      "distance": 2973.09,
+      "duration": {
+        "departure": 18300,
+        "return": 0,
+        "total": 18300
+      },
+      "price": 239,
+      "conversion": {
+        "CAD": 239,
+        "EUR": 163.09028104754458
+      },
+      "fare": {
+        "adults": 239,
+        "children": 239,
+        "infants": 239
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 532.0892,
+            "itinerary_price_remaining": 239,
+            "fare_lock_kind": "fee",
+            "price": 59.75,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 532.0892,
+            "itinerary_price_remaining": 239,
+            "fare_lock_kind": "fee",
+            "price": 11.95,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 532.0892,
+            "itinerary_price_remaining": 239,
+            "fare_lock_kind": "fee",
+            "price": 23.9,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 363.090281,
+            "itinerary_price_remaining": 163.090281,
+            "fare_lock_kind": "fee",
+            "price": 40.77257,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 363.090281,
+            "itinerary_price_remaining": 163.090281,
+            "fare_lock_kind": "fee",
+            "price": 8.154514,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 363.090281,
+            "itinerary_price_remaining": 163.090281,
+            "fare_lock_kind": "fee",
+            "price": 16.309028,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 119.007404214,
+        "2": 238.014808428
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 7,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "F8"
+      ],
+      "route": [
+        {
+          "id": "0eae1cfb4d2a00006826ae1d_0",
+          "combination_id": "0eae1cfb4d2a00006826ae1d",
+          "flyFrom": "YUL",
+          "flyTo": "CUN",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo":"Canc\xc3\xban",
+          "cityCodeTo": "CUN",
+          "local_departure": "2024-02-01T13:30:00.000Z",
+          "utc_departure": "2024-02-01T18:30:00.000Z",
+          "local_arrival": "2024-02-01T18:35:00.000Z",
+          "utc_arrival": "2024-02-01T23:35:00.000Z",
+          "airline": "F8",
+          "flight_no": 2100,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GfrUFinwSzKfAlYMmz_64Cr5zakigiG-79BihOeBrF7ivuCu41FmUeaztH5NuLX5LiHSGdjNgBnwKaP6GQU45MhGv8U4TfdltRbMj_JqXRBkQrnKERwDs4D6IBEvlA7J4H5-jAs_Ytz_UUdnAVzQHqYpOyLbsJVV3bV_Z1s2_tcd6YjH5tqEwOI8XdppDiHkfIa5Ygtab-FSjwFbK0nJ_ouhgMa5BUHCrNMatdCHA2NlCeuIQlYbsKs7JLjRb_YuP_BbtVVVxtK8s3Bps9db7V7Rj-4uIXn55awgsFMH0idqMryDWi5P0rZh0cFkPiLdWR5TxfZC1bJfFC5NyaI5bypM1Soky6aQbp1496MqkNxlZSJGqblzgD6Bx2e2hf5su61gQ8Fvc6e9Q5wCF-V53cbBwF3ZuwdnOiKvv1S3lVmfrD-3dowLLSj8Q6LH_8F7A5DPH3fmzwLNWpR67ZQmiK1jRoLNqQ6RH7EnfvKAGGlrY84bEPajUldfqFmXQZs7DBrnMxoTlP3ONB11bASBWXoqwAJYzhT31YMrG7XyU5gnng1UQZnphQ5RAxx_R7zDcAqPQlSYAIW1qLPjZfElCwMXlL_w9WQqBjVjLk4obSjtMMtD8NioXuvJFVyf999nhkSseo7SIg7nQT-RvTyLw0zpQNIienWUCLlft9vXJq7VZND45VlKtd592wcndl9ftvqFB-xutp8OU3OPl1u0etJZfrT3baMf-EWNXjHtZ2Zo=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae1cfb4d2a00006826ae1d_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=CUN\\u0026booking_token=GfrUFinwSzKfAlYMmz_64Cr5zakigiG-79BihOeBrF7ivuCu41FmUeaztH5NuLX5LiHSGdjNgBnwKaP6GQU45MhGv8U4TfdltRbMj_JqXRBkQrnKERwDs4D6IBEvlA7J4H5-jAs_Ytz_UUdnAVzQHqYpOyLbsJVV3bV_Z1s2_tcd6YjH5tqEwOI8XdppDiHkfIa5Ygtab-FSjwFbK0nJ_ouhgMa5BUHCrNMatdCHA2NlCeuIQlYbsKs7JLjRb_YuP_BbtVVVxtK8s3Bps9db7V7Rj-4uIXn55awgsFMH0idqMryDWi5P0rZh0cFkPiLdWR5TxfZC1bJfFC5NyaI5bypM1Soky6aQbp1496MqkNxlZSJGqblzgD6Bx2e2hf5su61gQ8Fvc6e9Q5wCF-V53cbBwF3ZuwdnOiKvv1S3lVmfrD-3dowLLSj8Q6LH_8F7A5DPH3fmzwLNWpR67ZQmiK1jRoLNqQ6RH7EnfvKAGGlrY84bEPajUldfqFmXQZs7DBrnMxoTlP3ONB11bASBWXoqwAJYzhT31YMrG7XyU5gnng1UQZnphQ5RAxx_R7zDcAqPQlSYAIW1qLPjZfElCwMXlL_w9WQqBjVjLk4obSjtMMtD8NioXuvJFVyf999nhkSseo7SIg7nQT-RvTyLw0zpQNIienWUCLlft9vXJq7VZND45VlKtd592wcndl9ftvqFB-xutp8OU3OPl1u0etJZfrT3baMf-EWNXjHtZ2Zo=",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a00009af0dc61_0",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T07:00:00.000Z",
+      "utc_departure": "2024-02-01T12:00:00.000Z",
+      "local_arrival": "2024-02-01T11:05:00.000Z",
+      "utc_arrival": "2024-02-01T16:05:00.000Z",
+      "nightsInDest": null,
+      "quality": 217.310242,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 14700,
+        "return": 0,
+        "total": 14700
+      },
+      "price": 253,
+      "conversion": {
+        "CAD": 253,
+        "EUR": 172.64368663191956
+      },
+      "fare": {
+        "adults": 253,
+        "children": 253,
+        "infants": 253
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 546.089201,
+            "itinerary_price_remaining": 253.000001,
+            "fare_lock_kind": "fee",
+            "price": 63.250001,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 546.089201,
+            "itinerary_price_remaining": 253.000001,
+            "fare_lock_kind": "fee",
+            "price": 12.65,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 546.089201,
+            "itinerary_price_remaining": 253.000001,
+            "fare_lock_kind": "fee",
+            "price": 25.3,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 372.643687,
+            "itinerary_price_remaining": 172.643687,
+            "fare_lock_kind": "fee",
+            "price": 43.160922,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 372.643687,
+            "itinerary_price_remaining": 172.643687,
+            "fare_lock_kind": "fee",
+            "price": 8.632184,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 372.643687,
+            "itinerary_price_remaining": 172.643687,
+            "fare_lock_kind": "fee",
+            "price": 17.264369,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "personal_item_height": 35,
+        "personal_item_length": 45,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AA"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a00009af0dc61_0",
+          "combination_id": "0eae0f6b4d2a00009af0dc61",
+          "flyFrom": "YUL",
+          "flyTo": "MIA",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-01T07:00:00.000Z",
+          "utc_departure": "2024-02-01T12:00:00.000Z",
+          "local_arrival": "2024-02-01T11:05:00.000Z",
+          "utc_arrival": "2024-02-01T16:05:00.000Z",
+          "airline": "AA",
+          "flight_no": 1516,
+          "operating_carrier": "AA",
+          "operating_flight_no": "1516",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GGyQpDXwe7OKdOWgrQ8aIDRB0YNKCU9lTxDDCyvufOI6Ptmhb9oBb3x7n-3pIsB6-kwdn2-xldVAWMPTWZjNK1cUerVP-T1cJo8SFDdWAo-4VO7YD6MEazJNf4leG145PjNU9qi5w4RfaKkz4wiRNrhhXZBsRIyJuQIyoJcmnzBf7SCUxOkvKgXkKwuho-z8uK7HkxmC2AYgPPMYQjlFmPc1CDMqiTB8kEWvcwkZM6jYkdnsfamjM-ODVzTl90bTDqVj1eqUNdrwl2pcum6dAFWeEGfVv3cm289i2irgBORTQPoX_ognFETK4rcs7lfjoYPtUmVf-zfGbBUecSux7hTz4rTg0VpWf8ghRYT0of-iKbM77BCXZBgaEnZoWzviyybBLg3ToejSR-gQ34mkFKtK97jJVlSQuKKEdgyzjhpRCpDhCqr4FR1vWd2ZXDPxemNo9FfIHYInrXbE1OQHY362r3MPs0OrW6R3pFH-Zi4Tl7Q3YdTxEsaQxit4DNLwT3bkGVWVa3X9jETslsXDiXl428vFKAUCPmzYIQA2oICa7HB0kUE3p0IWABkKn7NBz5MMiyZ3T97_iWn6R903Q1UldDYh19y0HAdRFSH7AVESRr2_JO6ybMcCuD9HwDUYjYkukS0oUAevzpAZmPRvoQOpNZ_pKIkHCqmnpqI3i3ccC4ibpc30egceKVaUqoWYOaWLl-PDBk_V7zSZUtDv4bgAgbVjuCJELKae2aItYSQLrNOdaYJT_SOOGOKdlbY3H",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a00009af0dc61_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=GGyQpDXwe7OKdOWgrQ8aIDRB0YNKCU9lTxDDCyvufOI6Ptmhb9oBb3x7n-3pIsB6-kwdn2-xldVAWMPTWZjNK1cUerVP-T1cJo8SFDdWAo-4VO7YD6MEazJNf4leG145PjNU9qi5w4RfaKkz4wiRNrhhXZBsRIyJuQIyoJcmnzBf7SCUxOkvKgXkKwuho-z8uK7HkxmC2AYgPPMYQjlFmPc1CDMqiTB8kEWvcwkZM6jYkdnsfamjM-ODVzTl90bTDqVj1eqUNdrwl2pcum6dAFWeEGfVv3cm289i2irgBORTQPoX_ognFETK4rcs7lfjoYPtUmVf-zfGbBUecSux7hTz4rTg0VpWf8ghRYT0of-iKbM77BCXZBgaEnZoWzviyybBLg3ToejSR-gQ34mkFKtK97jJVlSQuKKEdgyzjhpRCpDhCqr4FR1vWd2ZXDPxemNo9FfIHYInrXbE1OQHY362r3MPs0OrW6R3pFH-Zi4Tl7Q3YdTxEsaQxit4DNLwT3bkGVWVa3X9jETslsXDiXl428vFKAUCPmzYIQA2oICa7HB0kUE3p0IWABkKn7NBz5MMiyZ3T97_iWn6R903Q1UldDYh19y0HAdRFSH7AVESRr2_JO6ybMcCuD9HwDUYjYkukS0oUAevzpAZmPRvoQOpNZ_pKIkHCqmnpqI3i3ccC4ibpc30egceKVaUqoWYOaWLl-PDBk_V7zSZUtDv4bgAgbVjuCJELKae2aItYSQLrNOdaYJT_SOOGOKdlbY3H",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a00006c0f0345_0|0eae0f6b4d2a00006c0f0345_1",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T14:15:00.000Z",
+      "utc_departure": "2024-02-01T19:15:00.000Z",
+      "local_arrival": "2024-02-01T20:20:00.000Z",
+      "utc_arrival": "2024-02-02T01:20:00.000Z",
+      "nightsInDest": null,
+      "quality": 233.310202,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 21900,
+        "return": 0,
+        "total": 21900
+      },
+      "price": 253,
+      "conversion": {
+        "CAD": 253,
+        "EUR": 172.64368663191956
+      },
+      "fare": {
+        "adults": 253,
+        "children": 253,
+        "infants": 253
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 546.089201,
+            "itinerary_price_remaining": 253.000001,
+            "fare_lock_kind": "fee",
+            "price": 63.250001,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 546.089201,
+            "itinerary_price_remaining": 253.000001,
+            "fare_lock_kind": "fee",
+            "price": 12.65,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 546.089201,
+            "itinerary_price_remaining": 253.000001,
+            "fare_lock_kind": "fee",
+            "price": 25.3,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 372.643687,
+            "itinerary_price_remaining": 172.643687,
+            "fare_lock_kind": "fee",
+            "price": 43.160922,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 372.643687,
+            "itinerary_price_remaining": 172.643687,
+            "fare_lock_kind": "fee",
+            "price": 8.632184,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 372.643687,
+            "itinerary_price_remaining": 172.643687,
+            "fare_lock_kind": "fee",
+            "price": 17.264369,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "personal_item_height": 35,
+        "personal_item_length": 45,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AA"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a00006c0f0345_0",
+          "combination_id": "0eae0f6b4d2a00006c0f0345",
+          "flyFrom": "YUL",
+          "flyTo": "CLT",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Charlotte",
+          "cityCodeTo": "CLT",
+          "local_departure": "2024-02-01T14:15:00.000Z",
+          "utc_departure": "2024-02-01T19:15:00.000Z",
+          "local_arrival": "2024-02-01T17:15:00.000Z",
+          "utc_arrival": "2024-02-01T22:15:00.000Z",
+          "airline": "AA",
+          "flight_no": 5029,
+          "operating_carrier": "AA",
+          "operating_flight_no": "5029",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae0f6b4d2a00006c0f0345_1",
+          "combination_id": "0eae0f6b4d2a00006c0f0345",
+          "flyFrom": "CLT",
+          "flyTo": "MIA",
+          "cityFrom": "Charlotte",
+          "cityCodeFrom": "CLT",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-01T18:15:00.000Z",
+          "utc_departure": "2024-02-01T23:15:00.000Z",
+          "local_arrival": "2024-02-01T20:20:00.000Z",
+          "utc_arrival": "2024-02-02T01:20:00.000Z",
+          "airline": "AA",
+          "flight_no": 2530,
+          "operating_carrier": "AA",
+          "operating_flight_no": "2530",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GHDPp6wepRB7voEnC2BEHgHXVUp2v2vtlvm0KOrNCFJBdhoH8J8zYWhxesjXfFJB0cVQivcUAcLu2jc53ttYP8IACzXO-MszEXlk3NlJwMZaVodr-1HO3PLoPVMIdD8Wz-cDLK6TEKUqGb_w_20lAW329efAMQGgdpY6sneEbvh8rJt-bzrnt6riug3wNrxX4Uj5nQ9FLO3JZ0GsvncpGQaMOO0pZuheuY84YOSCcLjCr-kV6qB1hPNxN1QwIq1F0MqcX9hyld4sWV366TvMw5Z7Gy2BGV-C2xeZlvaojyZhiBs3rTb8FL6knoh0qHU6cu0UWQNMWiHSpKB7kL63jaD-hlfuGcUrOy06AuJJGmjl58LEz3_P8tzqglhZvQeadIvuY2vBW7ClB_l1kJil79UUmZ4qmvTI-qSPxxGJQt9Uhld3v1AFYQboolV0sFfj0AIwEpOjiwtBr5Eyj-BBAR2Ir8qcgGt-l6NwVRPwL_YvqPHVyY0zCtdmvUWw7zZX5ZITrGhoYr-DhP7LUC32sbLUT2qIykIwbNSUqqrZoCqllBlcy4AH6K-lv1o5nXylEqPGPAH5w7VmyVY_B_kIzr3yQbzUF3WAi6Qag8u4P3SDmCo8sHFgC0OQufEyCNr0pEaFGpsOnLyAx_UJItbF7QVXpZMBWoVWyTSb7ubY1_Xp2PHP9LxKb2DCC4InAT1dsi2NKmD1CKceCJIaU9G_AJUZ5bjfKqYxmkvoxP9Ekv5sCZ4g3L9OdmA8BRi0sOkK91N2QaCHS4zSASI3c8kUMiw==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a00006c0f0345_0%7C0eae0f6b4d2a00006c0f0345_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=GHDPp6wepRB7voEnC2BEHgHXVUp2v2vtlvm0KOrNCFJBdhoH8J8zYWhxesjXfFJB0cVQivcUAcLu2jc53ttYP8IACzXO-MszEXlk3NlJwMZaVodr-1HO3PLoPVMIdD8Wz-cDLK6TEKUqGb_w_20lAW329efAMQGgdpY6sneEbvh8rJt-bzrnt6riug3wNrxX4Uj5nQ9FLO3JZ0GsvncpGQaMOO0pZuheuY84YOSCcLjCr-kV6qB1hPNxN1QwIq1F0MqcX9hyld4sWV366TvMw5Z7Gy2BGV-C2xeZlvaojyZhiBs3rTb8FL6knoh0qHU6cu0UWQNMWiHSpKB7kL63jaD-hlfuGcUrOy06AuJJGmjl58LEz3_P8tzqglhZvQeadIvuY2vBW7ClB_l1kJil79UUmZ4qmvTI-qSPxxGJQt9Uhld3v1AFYQboolV0sFfj0AIwEpOjiwtBr5Eyj-BBAR2Ir8qcgGt-l6NwVRPwL_YvqPHVyY0zCtdmvUWw7zZX5ZITrGhoYr-DhP7LUC32sbLUT2qIykIwbNSUqqrZoCqllBlcy4AH6K-lv1o5nXylEqPGPAH5w7VmyVY_B_kIzr3yQbzUF3WAi6Qag8u4P3SDmCo8sHFgC0OQufEyCNr0pEaFGpsOnLyAx_UJItbF7QVXpZMBWoVWyTSb7ubY1_Xp2PHP9LxKb2DCC4InAT1dsi2NKmD1CKceCJIaU9G_AJUZ5bjfKqYxmkvoxP9Ekv5sCZ4g3L9OdmA8BRi0sOkK91N2QaCHS4zSASI3c8kUMiw==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a000036646ba6_0",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T18:45:00.000Z",
+      "utc_departure": "2024-02-01T23:45:00.000Z",
+      "local_arrival": "2024-02-01T22:40:00.000Z",
+      "utc_arrival": "2024-02-02T03:40:00.000Z",
+      "nightsInDest": null,
+      "quality": 351.089362,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 14100,
+        "return": 0,
+        "total": 14100
+      },
+      "price": 451,
+      "conversion": {
+        "CAD": 451,
+        "EUR": 307.75613703950876
+      },
+      "fare": {
+        "adults": 451,
+        "children": 451,
+        "infants": 451
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 744.0892,
+            "itinerary_price_remaining": 451,
+            "fare_lock_kind": "fee",
+            "price": 112.75,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 744.0892,
+            "itinerary_price_remaining": 451,
+            "fare_lock_kind": "fee",
+            "price": 22.55,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 744.0892,
+            "itinerary_price_remaining": 451,
+            "fare_lock_kind": "fee",
+            "price": 45.1,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 507.756137,
+            "itinerary_price_remaining": 307.756137,
+            "fare_lock_kind": "fee",
+            "price": 76.939034,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 507.756137,
+            "itinerary_price_remaining": 307.756137,
+            "fare_lock_kind": "fee",
+            "price": 15.387807,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 507.756137,
+            "itinerary_price_remaining": 307.756137,
+            "fare_lock_kind": "fee",
+            "price": 30.775614,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 68.210649516,
+        "2": 181.886761182
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 5,
+        "personal_item_width": 16
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AC"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a000036646ba6_0",
+          "combination_id": "0eae0f6b4d2a000036646ba6",
+          "flyFrom": "YUL",
+          "flyTo": "MIA",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-01T18:45:00.000Z",
+          "utc_departure": "2024-02-01T23:45:00.000Z",
+          "local_arrival": "2024-02-01T22:40:00.000Z",
+          "utc_arrival": "2024-02-02T03:40:00.000Z",
+          "airline": "AC",
+          "flight_no": 1208,
+          "operating_carrier": "AC",
+          "operating_flight_no": "1208",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "Ggz4j_ifAAxMmDGovEen6OCwKLyoAVkyX4KqOp4lxcvKiNcmDzvr2suNojZsLnoEUtfijjqNkDelVTxV1BYWpQiNsGQ7lf6KaJfCN2yfl3WSpa70lK4ePYPJZ-SrKoyYsX7f1fVYBYfEkC_otEPTQ50JKFeOqJQBDD9XzHgc5hDYFn_n6mK3xH8vbzgdEGtMzxB3xWdLN2bpFTF1bOJFl59HmZMCGyNIyu4EeHVmohuDLCoLZInbttrLRYTYutSlT80ljUHVhC4m4OymCm7cOfKt5-O2tcrS9powAWMICa8MBHdGKnafawqT9dE_pMmEENL7sr4TF6DRmvhM24_X6pjr3I_0Dj__LqXo4gtKEcGOe2aeV4J__qfmoXgll3XQdeBwC4U4g_mbY7erXrmmlcj6yh2Pd5CS7JPzBfBZ4i5tcUY3o-1TzzkwukUzeKiY78WxIH9guZ5kxPUXW3PFwE4-OCz7HUSvUsFpUc7iz_27mSSZdgvKhTnWM5OzY6JEMFNK7Ety-KmwbqqHdH_CXWtE7WwzFVTwNWPeC9uohiS1oCdqdLt9NXERwU0szDzcX6z4018jrDMwr7oiabUltYWvxGCgoOIoyZAvJ86eNL6X-FBQS0Ju-hAnyOmdTP3_C5WAZS9mWU-kK9CYNwwYiewF2ajaGWvmS-jjqdWUtn1lnbwvknRaXsg2uOupZnnKI76DlKMBy5uS2O1WVAjtKuQfkil3TuPqYn2C2Tw_PWF537Is9E9oKoojsm3krXBlZRZRNCClKt2LwXNQwjQIZ4Q==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a000036646ba6_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=Ggz4j_ifAAxMmDGovEen6OCwKLyoAVkyX4KqOp4lxcvKiNcmDzvr2suNojZsLnoEUtfijjqNkDelVTxV1BYWpQiNsGQ7lf6KaJfCN2yfl3WSpa70lK4ePYPJZ-SrKoyYsX7f1fVYBYfEkC_otEPTQ50JKFeOqJQBDD9XzHgc5hDYFn_n6mK3xH8vbzgdEGtMzxB3xWdLN2bpFTF1bOJFl59HmZMCGyNIyu4EeHVmohuDLCoLZInbttrLRYTYutSlT80ljUHVhC4m4OymCm7cOfKt5-O2tcrS9powAWMICa8MBHdGKnafawqT9dE_pMmEENL7sr4TF6DRmvhM24_X6pjr3I_0Dj__LqXo4gtKEcGOe2aeV4J__qfmoXgll3XQdeBwC4U4g_mbY7erXrmmlcj6yh2Pd5CS7JPzBfBZ4i5tcUY3o-1TzzkwukUzeKiY78WxIH9guZ5kxPUXW3PFwE4-OCz7HUSvUsFpUc7iz_27mSSZdgvKhTnWM5OzY6JEMFNK7Ety-KmwbqqHdH_CXWtE7WwzFVTwNWPeC9uohiS1oCdqdLt9NXERwU0szDzcX6z4018jrDMwr7oiabUltYWvxGCgoOIoyZAvJ86eNL6X-FBQS0Ju-hAnyOmdTP3_C5WAZS9mWU-kK9CYNwwYiewF2ajaGWvmS-jjqdWUtn1lnbwvknRaXsg2uOupZnnKI76DlKMBy5uS2O1WVAjtKuQfkil3TuPqYn2C2Tw_PWF537Is9E9oKoojsm3krXBlZRZRNCClKt2LwXNQwjQIZ4Q==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae0f6b4d2a0000d1dc46a1_0",
+      "flyFrom": "YUL",
+      "flyTo": "MIA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "US",
+        "name":"\xc3\x89tats-Unis"
+      },
+      "local_departure": "2024-02-01T08:30:00.000Z",
+      "utc_departure": "2024-02-01T13:30:00.000Z",
+      "local_arrival": "2024-02-01T12:25:00.000Z",
+      "utc_arrival": "2024-02-01T17:25:00.000Z",
+      "nightsInDest": null,
+      "quality": 396.126845,
+      "distance": 2267.23,
+      "duration": {
+        "departure": 14100,
+        "return": 0,
+        "total": 14100
+      },
+      "price": 517,
+      "conversion": {
+        "CAD": 517,
+        "EUR": 352.7936205087052
+      },
+      "fare": {
+        "adults": 517,
+        "children": 517,
+        "infants": 517
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 810.089199,
+            "itinerary_price_remaining": 516.999999,
+            "fare_lock_kind": "fee",
+            "price": 129.25,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 810.089199,
+            "itinerary_price_remaining": 516.999999,
+            "fare_lock_kind": "fee",
+            "price": 25.85,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 810.089199,
+            "itinerary_price_remaining": 516.999999,
+            "fare_lock_kind": "fee",
+            "price": 51.7,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 552.79362,
+            "itinerary_price_remaining": 352.79362,
+            "fare_lock_kind": "fee",
+            "price": 88.198405,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 552.79362,
+            "itinerary_price_remaining": 352.79362,
+            "fare_lock_kind": "fee",
+            "price": 17.639681,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 552.79362,
+            "itinerary_price_remaining": 352.79362,
+            "fare_lock_kind": "fee",
+            "price": 35.279362,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 68.210649516,
+        "2": 181.886761182
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 33,
+        "personal_item_length": 43,
+        "personal_item_weight": 5,
+        "personal_item_width": 16
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AC"
+      ],
+      "route": [
+        {
+          "id": "0eae0f6b4d2a0000d1dc46a1_0",
+          "combination_id": "0eae0f6b4d2a0000d1dc46a1",
+          "flyFrom": "YUL",
+          "flyTo": "MIA",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "Miami",
+          "cityCodeTo": "MIA",
+          "local_departure": "2024-02-01T08:30:00.000Z",
+          "utc_departure": "2024-02-01T13:30:00.000Z",
+          "local_arrival": "2024-02-01T12:25:00.000Z",
+          "utc_arrival": "2024-02-01T17:25:00.000Z",
+          "airline": "AC",
+          "flight_no": 1206,
+          "operating_carrier": "AC",
+          "operating_flight_no": "1206",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "Gm0KxrSQK0Q8mURTMgZ0sw6x-nlGrdTpiZ66RJmFkc5v5_NX0_tZIfhsnbj3hAOH5j3FsPpTOgdtSlQy1_qHIQrr82FHemb4tM1p9vsw5NmjSpuvHRtVpYN3JMxrqyaqg2Yf939WJIPkaphwBpCexxrI0gSsQlYkEAJfjkL4I60S-7JqwVLKI97OBUMEBPj7zhk--A5fVaCFyF7UMgqQ0ImTnCI2S33DPAaINiitqbKhQYvZs77n20BmuKga9t6bnVyny6HxqhUqeeQb1yjAkzk9Zt6veP76IlQbjvvhlq-wCfgRqOVl73ZUa4EoJ8A9qq5OpCUT2h4W1xOu9POgJ5JVfHy9HtnICDJM-0EWwJQsecvNZFhTh9mAa8gSf55qBu5xuhtHZABjicENJjVujCpx1qYYBdxJmS4uoidzaYZMKUDtoi_v-ZQY8TQMsDAqohp4XmsCTXJvGSPix8a7PCtyh31WWfhlBUPz_rOiG8HcE7kKXQcRK5-Id8qE3Y8wc2tFQbBcuaTdPKa5j2QcO6gOhrfWFHZgcwzAWJpumshLmunYbF8kFxiXsk2Q65J5UGkCLBnWV-LmIl4cttMIUh7sRCvN4dcuMGTTyFZW4JDwZUsO3-0zLKqvjef2It2sEwuRaGBNIgRCS_EjaE61BdklR3S-QPkkBHASnBs0O1zGmz3oA1fg4HXrRlQv97OWKlRe1b9XydarWvVJHN28ezdJRXmny5k__B_x8g8UZKxWnPjEXP4-AWyng4w3NK0Pmgy-VVVBhgGJPL5AcVnovaA==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae0f6b4d2a0000d1dc46a1_0\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=MIA\\u0026booking_token=Gm0KxrSQK0Q8mURTMgZ0sw6x-nlGrdTpiZ66RJmFkc5v5_NX0_tZIfhsnbj3hAOH5j3FsPpTOgdtSlQy1_qHIQrr82FHemb4tM1p9vsw5NmjSpuvHRtVpYN3JMxrqyaqg2Yf939WJIPkaphwBpCexxrI0gSsQlYkEAJfjkL4I60S-7JqwVLKI97OBUMEBPj7zhk--A5fVaCFyF7UMgqQ0ImTnCI2S33DPAaINiitqbKhQYvZs77n20BmuKga9t6bnVyny6HxqhUqeeQb1yjAkzk9Zt6veP76IlQbjvvhlq-wCfgRqOVl73ZUa4EoJ8A9qq5OpCUT2h4W1xOu9POgJ5JVfHy9HtnICDJM-0EWwJQsecvNZFhTh9mAa8gSf55qBu5xuhtHZABjicENJjVujCpx1qYYBdxJmS4uoidzaYZMKUDtoi_v-ZQY8TQMsDAqohp4XmsCTXJvGSPix8a7PCtyh31WWfhlBUPz_rOiG8HcE7kKXQcRK5-Id8qE3Y8wc2tFQbBcuaTdPKa5j2QcO6gOhrfWFHZgcwzAWJpumshLmunYbF8kFxiXsk2Q65J5UGkCLBnWV-LmIl4cttMIUh7sRCvN4dcuMGTTyFZW4JDwZUsO3-0zLKqvjef2It2sEwuRaGBNIgRCS_EjaE61BdklR3S-QPkkBHASnBs0O1zGmz3oA1fg4HXrRlQv97OWKlRe1b9XydarWvVJHN28ezdJRXmny5k__B_x8g8UZKxWnPjEXP4-AWyng4w3NK0Pmgy-VVVBhgGJPL5AcVnovaA==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae03584d2a00000a882e53_0|0eae03584d2a00000a882e53_1",
+      "flyFrom": "YUL",
+      "flyTo": "LIS",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Lisbonne",
+      "cityCodeTo": "LIS",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "PT",
+        "name": "Portugal"
+      },
+      "local_departure": "2024-02-01T20:00:00.000Z",
+      "utc_departure": "2024-02-02T01:00:00.000Z",
+      "local_arrival": "2024-02-02T11:40:00.000Z",
+      "utc_arrival": "2024-02-02T11:40:00.000Z",
+      "nightsInDest": null,
+      "quality": 658.254475,
+      "distance": 5241.56,
+      "duration": {
+        "departure": 38400,
+        "return": 0,
+        "total": 38400
+      },
+      "price": 822,
+      "conversion": {
+        "CAD": 822,
+        "EUR": 560.9213850254462
+      },
+      "fare": {
+        "adults": 822,
+        "children": 822,
+        "infants": 822
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 1115.0892,
+            "itinerary_price_remaining": 822,
+            "fare_lock_kind": "fee",
+            "price": 205.5,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 1115.0892,
+            "itinerary_price_remaining": 822,
+            "fare_lock_kind": "fee",
+            "price": 41.1,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 1115.0892,
+            "itinerary_price_remaining": 822,
+            "fare_lock_kind": "fee",
+            "price": 82.200001,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 760.921385,
+            "itinerary_price_remaining": 560.921385,
+            "fare_lock_kind": "fee",
+            "price": 140.230346,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 760.921385,
+            "itinerary_price_remaining": 560.921385,
+            "fare_lock_kind": "fee",
+            "price": 28.046069,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 760.921385,
+            "itinerary_price_remaining": 560.921385,
+            "fare_lock_kind": "fee",
+            "price": 56.092139,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 255.055014516,
+        "2": 617.856946182
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 2,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": 4
+      },
+      "airlines": [
+        "TP"
+      ],
+      "route": [
+        {
+          "id": "0eae03584d2a00000a882e53_0",
+          "combination_id": "0eae03584d2a00000a882e53",
+          "flyFrom": "YUL",
+          "flyTo": "EWR",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "New York",
+          "cityCodeTo": "NYC",
+          "local_departure": "2024-02-01T20:00:00.000Z",
+          "utc_departure": "2024-02-02T01:00:00.000Z",
+          "local_arrival": "2024-02-01T21:37:00.000Z",
+          "utc_arrival": "2024-02-02T02:37:00.000Z",
+          "airline": "TP",
+          "flight_no": 8069,
+          "operating_carrier": "AC",
+          "operating_flight_no": "8946",
+          "fare_basis": "KL0DSI04",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae03584d2a00000a882e53_1",
+          "combination_id": "0eae03584d2a00000a882e53",
+          "flyFrom": "EWR",
+          "flyTo": "LIS",
+          "cityFrom": "New York",
+          "cityCodeFrom": "NYC",
+          "cityTo": "Lisbonne",
+          "cityCodeTo": "LIS",
+          "local_departure": "2024-02-01T23:55:00.000Z",
+          "utc_departure": "2024-02-02T04:55:00.000Z",
+          "local_arrival": "2024-02-02T11:40:00.000Z",
+          "utc_arrival": "2024-02-02T11:40:00.000Z",
+          "airline": "TP",
+          "flight_no": 204,
+          "operating_carrier": "TP",
+          "operating_flight_no": "204",
+          "fare_basis": "KL0DSI04",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GBj1iu_F7OA6tPPKBO44P6BqiJDKSfOq5BrjJbCJP1TqAN-ZCevvoHApnXq3RkbfQwv7fBNn_EnX-1sDKtINTT69Zwxp0aUqJX4WtzKMV9Blov0-DnYHrfIC8gA_S9Ta7bcopt3-kmcIVj0dHv2bkaEmp7xB94sW77SNfcqT3qBijOG4e0SV0B-ECFHRXmemHMXbtOe_LHL8eazW7B8qB90n1RMbC_ANrZ6JT8-MDOew0v1agcDZLDa0KCardO7evyzQH22tr1Zo5BenLFGbJCOxLNCIugJX699jqb8GjsvLf8VO43UCgWaLfdpK_mqpt0hzR6cTddfB4rspML71N_Z-KkJ0U2rrh0OT8xD9tmokkZdFZdsiRjfWuqFUC_rUtndxTnH9gTiPsoT6gRGKPVsRANGcMBaatjrK2vhivjsRfYaGHtVdYrIIQFsuOkUdYksvs6MYS_AF-1B3qU1UbiI5LSn7G-55RAE2T19tH9js8Cxl5-g0xPA0CcEloCUN9smHStUN7BJhZf_DqOtSWIXJF5sEkGQPDbr-9eLlOVDaCYVSj5WUODcnuHmhcqgmJS7AmVP2ctBxj4iXMXLUWE4SebcskzQW1XSQ-uSpaIC7oQx5ixgFkixyBxF5bxg_u9i38EUA9pt8fCG_huE93dVUWclKLaNUtfO8e7_iHSbnBp1w57dum4sHAZu_3Sk3g9CejpeSIwAYp3KWRxwogFA3n2-vXSa9leIXZgmu59JC-Cr9HBbhhZUcfT6lrESJPtH1jEX-GcHM5nHIsgn60G_7sL9Pm37VipZjl1YbtsyY=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae03584d2a00000a882e53_0%7C0eae03584d2a00000a882e53_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=LIS\\u0026booking_token=GBj1iu_F7OA6tPPKBO44P6BqiJDKSfOq5BrjJbCJP1TqAN-ZCevvoHApnXq3RkbfQwv7fBNn_EnX-1sDKtINTT69Zwxp0aUqJX4WtzKMV9Blov0-DnYHrfIC8gA_S9Ta7bcopt3-kmcIVj0dHv2bkaEmp7xB94sW77SNfcqT3qBijOG4e0SV0B-ECFHRXmemHMXbtOe_LHL8eazW7B8qB90n1RMbC_ANrZ6JT8-MDOew0v1agcDZLDa0KCardO7evyzQH22tr1Zo5BenLFGbJCOxLNCIugJX699jqb8GjsvLf8VO43UCgWaLfdpK_mqpt0hzR6cTddfB4rspML71N_Z-KkJ0U2rrh0OT8xD9tmokkZdFZdsiRjfWuqFUC_rUtndxTnH9gTiPsoT6gRGKPVsRANGcMBaatjrK2vhivjsRfYaGHtVdYrIIQFsuOkUdYksvs6MYS_AF-1B3qU1UbiI5LSn7G-55RAE2T19tH9js8Cxl5-g0xPA0CcEloCUN9smHStUN7BJhZf_DqOtSWIXJF5sEkGQPDbr-9eLlOVDaCYVSj5WUODcnuHmhcqgmJS7AmVP2ctBxj4iXMXLUWE4SebcskzQW1XSQ-uSpaIC7oQx5ixgFkixyBxF5bxg_u9i38EUA9pt8fCG_huE93dVUWclKLaNUtfO8e7_iHSbnBp1w57dum4sHAZu_3Sk3g9CejpeSIwAYp3KWRxwogFA3n2-vXSa9leIXZgmu59JC-Cr9HBbhhZUcfT6lrESJPtH1jEX-GcHM5nHIsgn60G_7sL9Pm37VipZjl1YbtsyY=",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae03584d2a00009e3dc66f_0|0eae03584d2a00009e3dc66f_1",
+      "flyFrom": "YUL",
+      "flyTo": "LIS",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Lisbonne",
+      "cityCodeTo": "LIS",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "PT",
+        "name": "Portugal"
+      },
+      "local_departure": "2024-02-01T13:05:00.000Z",
+      "utc_departure": "2024-02-01T18:05:00.000Z",
+      "local_arrival": "2024-02-02T11:40:00.000Z",
+      "utc_arrival": "2024-02-02T11:40:00.000Z",
+      "nightsInDest": null,
+      "quality": 713.58767,
+      "distance": 5241.56,
+      "duration": {
+        "departure": 63300,
+        "return": 0,
+        "total": 63300
+      },
+      "price": 822,
+      "conversion": {
+        "CAD": 822,
+        "EUR": 560.9213850254462
+      },
+      "fare": {
+        "adults": 822,
+        "children": 822,
+        "infants": 822
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 1115.0892,
+            "itinerary_price_remaining": 822,
+            "fare_lock_kind": "fee",
+            "price": 205.5,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 1115.0892,
+            "itinerary_price_remaining": 822,
+            "fare_lock_kind": "fee",
+            "price": 41.1,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 1115.0892,
+            "itinerary_price_remaining": 822,
+            "fare_lock_kind": "fee",
+            "price": 82.200001,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 760.921385,
+            "itinerary_price_remaining": 560.921385,
+            "fare_lock_kind": "fee",
+            "price": 140.230346,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 760.921385,
+            "itinerary_price_remaining": 560.921385,
+            "fare_lock_kind": "fee",
+            "price": 28.046069,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 760.921385,
+            "itinerary_price_remaining": 560.921385,
+            "fare_lock_kind": "fee",
+            "price": 56.092139,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 255.055014516,
+        "2": 617.856946182
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 2,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": 4
+      },
+      "airlines": [
+        "TP"
+      ],
+      "route": [
+        {
+          "id": "0eae03584d2a00009e3dc66f_0",
+          "combination_id": "0eae03584d2a00009e3dc66f",
+          "flyFrom": "YUL",
+          "flyTo": "EWR",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "New York",
+          "cityCodeTo": "NYC",
+          "local_departure": "2024-02-01T13:05:00.000Z",
+          "utc_departure": "2024-02-01T18:05:00.000Z",
+          "local_arrival": "2024-02-01T15:00:00.000Z",
+          "utc_arrival": "2024-02-01T20:00:00.000Z",
+          "airline": "TP",
+          "flight_no": 8250,
+          "operating_carrier": "AC",
+          "operating_flight_no": "8940",
+          "fare_basis": "KL0DSI04",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae03584d2a00009e3dc66f_1",
+          "combination_id": "0eae03584d2a00009e3dc66f",
+          "flyFrom": "EWR",
+          "flyTo": "LIS",
+          "cityFrom": "New York",
+          "cityCodeFrom": "NYC",
+          "cityTo": "Lisbonne",
+          "cityCodeTo": "LIS",
+          "local_departure": "2024-02-01T23:55:00.000Z",
+          "utc_departure": "2024-02-02T04:55:00.000Z",
+          "local_arrival": "2024-02-02T11:40:00.000Z",
+          "utc_arrival": "2024-02-02T11:40:00.000Z",
+          "airline": "TP",
+          "flight_no": 204,
+          "operating_carrier": "TP",
+          "operating_flight_no": "204",
+          "fare_basis": "KL0DSI04",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GtllH3yieBFCrltn9I7tnpzhfzEAFO-WVY7dht-7IOUDj4kKmMx8pssbf6455TDqZ0z9kQOeVbH9NkD7DYHdi1pJQhPg05FhHmJss8kJI8KnNn74rPnXvm3wuJIbsoE2MdFvEMrbE7jUNq8t4XcPLV4Cuwqb4LxGYtgMeBIuPY0MF-uniXtMPyldnTwcBx66PVdxfvyFrzLyRxJJepvUSlvRF6gXpND0JMv09QuXmqjUzZou0HPzKTcvJU1aggzuyirTnWvMRVcvyLGqZqw9Qb8YBLiYgdsIoRc9HBwcl6JR2y9SKhDFYlki9ek4IC2Sgd4rkorW-hgeqy-E75_qdlAD30AjGpAPcI0vdEMZciRO1QmXX6fgekbN2aSOm6TwyA_OZCLFYhkZgmmcmRm1nd1V8FuJHA0F44frYeCytGFyRWftc2UZecQNMc5T0i4y-JbO0m7VIShvCpWoPv6sX3cvSmMypJBTD0XySSVxTY2ATA-1PFunsdJv3JjS1VtzWovtJCsNdmBYkj6-b_pDLaWKr5z-FXHvNsDP0qIoy7ECnzBdBwaIlebip-c53KG5kf1FCkznzoE31TnNU1aOHhKTIofIRlY8PhBZXuQkn__hhAtH0YrKK94js8fp2JEXjBp8O5U7d1JMifxHtgoa7CsA-jfv-4WDBbEFl3U0HQU84LtULx1FdnSJl74JjcNK4Aut6RwbuRLi1uk6YM2hWWS8Kq9JMLV7GNDhWt-sCphmp8Wc8YiBRDqNqSxiAMiZwp3NB66zPYqt5TeWEAq0ermOu6ltmw8gzzPrefP5iYv0=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae03584d2a00009e3dc66f_0%7C0eae03584d2a00009e3dc66f_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=LIS\\u0026booking_token=GtllH3yieBFCrltn9I7tnpzhfzEAFO-WVY7dht-7IOUDj4kKmMx8pssbf6455TDqZ0z9kQOeVbH9NkD7DYHdi1pJQhPg05FhHmJss8kJI8KnNn74rPnXvm3wuJIbsoE2MdFvEMrbE7jUNq8t4XcPLV4Cuwqb4LxGYtgMeBIuPY0MF-uniXtMPyldnTwcBx66PVdxfvyFrzLyRxJJepvUSlvRF6gXpND0JMv09QuXmqjUzZou0HPzKTcvJU1aggzuyirTnWvMRVcvyLGqZqw9Qb8YBLiYgdsIoRc9HBwcl6JR2y9SKhDFYlki9ek4IC2Sgd4rkorW-hgeqy-E75_qdlAD30AjGpAPcI0vdEMZciRO1QmXX6fgekbN2aSOm6TwyA_OZCLFYhkZgmmcmRm1nd1V8FuJHA0F44frYeCytGFyRWftc2UZecQNMc5T0i4y-JbO0m7VIShvCpWoPv6sX3cvSmMypJBTD0XySSVxTY2ATA-1PFunsdJv3JjS1VtzWovtJCsNdmBYkj6-b_pDLaWKr5z-FXHvNsDP0qIoy7ECnzBdBwaIlebip-c53KG5kf1FCkznzoE31TnNU1aOHhKTIofIRlY8PhBZXuQkn__hhAtH0YrKK94js8fp2JEXjBp8O5U7d1JMifxHtgoa7CsA-jfv-4WDBbEFl3U0HQU84LtULx1FdnSJl74JjcNK4Aut6RwbuRLi1uk6YM2hWWS8Kq9JMLV7GNDhWt-sCphmp8Wc8YiBRDqNqSxiAMiZwp3NB66zPYqt5TeWEAq0ermOu6ltmw8gzzPrefP5iYv0=",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    },
+    {
+      "id": "0eae03584d2a00001f948101_0|0eae03584d2a00001f948101_1",
+      "flyFrom": "YUL",
+      "flyTo": "LIS",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "Lisbonne",
+      "cityCodeTo": "LIS",
+      "countryFrom": {
+        "code": "CA",
+        "name": "Canada"
+      },
+      "countryTo": {
+        "code": "PT",
+        "name": "Portugal"
+      },
+      "local_departure": "2024-02-01T20:00:00.000Z",
+      "utc_departure": "2024-02-02T01:00:00.000Z",
+      "local_arrival": "2024-02-03T05:25:00.000Z",
+      "utc_arrival": "2024-02-03T05:25:00.000Z",
+      "nightsInDest": null,
+      "quality": 820.043317,
+      "distance": 5241.56,
+      "duration": {
+        "departure": 102300,
+        "return": 0,
+        "total": 102300
+      },
+      "price": 851,
+      "conversion": {
+        "CAD": 851,
+        "EUR": 580.7105823073658
+      },
+      "fare": {
+        "adults": 851,
+        "children": 851,
+        "infants": 851
+      },
+      "fare_locks": {
+        "CAD": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 1144.0892,
+            "itinerary_price_remaining": 851,
+            "fare_lock_kind": "fee",
+            "price": 212.750001,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 1144.0892,
+            "itinerary_price_remaining": 851,
+            "fare_lock_kind": "fee",
+            "price": 42.55,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 1144.0892,
+            "itinerary_price_remaining": 851,
+            "fare_lock_kind": "fee",
+            "price": 85.1,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ],
+        "EUR": [
+          {
+            "default": false,
+            "duration": "P7D",
+            "itinerary_price_limit": 780.710582,
+            "itinerary_price_remaining": 580.710582,
+            "fare_lock_kind": "fee",
+            "price": 145.177646,
+            "rule_instance_id": 26750,
+            "version": "v1"
+          },
+          {
+            "default": false,
+            "duration": "P1D",
+            "itinerary_price_limit": 780.710582,
+            "itinerary_price_remaining": 580.710582,
+            "fare_lock_kind": "fee",
+            "price": 29.035529,
+            "rule_instance_id": 26749,
+            "version": "v1"
+          },
+          {
+            "default": true,
+            "duration": "P3D",
+            "itinerary_price_limit": 780.710582,
+            "itinerary_price_remaining": 580.710582,
+            "fare_lock_kind": "fee",
+            "price": 58.071058,
+            "rule_instance_id": 26748,
+            "version": "v1"
+          }
+        ]
+      },
+      "bags_price": {
+        "1": 255.055014516,
+        "2": 617.856946182
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 2,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "TP"
+      ],
+      "route": [
+        {
+          "id": "0eae03584d2a00001f948101_0",
+          "combination_id": "0eae03584d2a00001f948101",
+          "flyFrom": "YUL",
+          "flyTo": "EWR",
+          "cityFrom":"Montr\xc3\xa9al",
+          "cityCodeFrom": "YMQ",
+          "cityTo": "New York",
+          "cityCodeTo": "NYC",
+          "local_departure": "2024-02-01T20:00:00.000Z",
+          "utc_departure": "2024-02-02T01:00:00.000Z",
+          "local_arrival": "2024-02-01T21:37:00.000Z",
+          "utc_arrival": "2024-02-02T02:37:00.000Z",
+          "airline": "TP",
+          "flight_no": 8069,
+          "operating_carrier": "AC",
+          "operating_flight_no": "8946",
+          "fare_basis": "KL0DSI04",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        },
+        {
+          "id": "0eae03584d2a00001f948101_1",
+          "combination_id": "0eae03584d2a00001f948101",
+          "flyFrom": "EWR",
+          "flyTo": "LIS",
+          "cityFrom": "New York",
+          "cityCodeFrom": "NYC",
+          "cityTo": "Lisbonne",
+          "cityCodeTo": "LIS",
+          "local_departure": "2024-02-02T17:40:00.000Z",
+          "utc_departure": "2024-02-02T22:40:00.000Z",
+          "local_arrival": "2024-02-03T05:25:00.000Z",
+          "utc_arrival": "2024-02-03T05:25:00.000Z",
+          "airline": "TP",
+          "flight_no": 202,
+          "operating_carrier": "TP",
+          "operating_flight_no": "202",
+          "fare_basis": "KL0DSI04",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft"
+        }
+      ],
+      "booking_token": "GIjYzCdgXb3WupcojzOyhAr0WCLk6KUj_4uSp3CtI6cybqrNlfgpwZ1CX3kjzRZtWAzHmgozdIBg49b3OMUDwXT3AM-k_WkXtVGAIPgwWL2g19y6C9M1vY-6z_XJXuaespP4aARCh2R0PRCWeDXKve8YkP8glv39BjNrDbOWe7jVnLieACACGH-a8nieu9i_ZeZI46icrjw-XrCCy5sqJVs6dTO7Wxy_HTGUfuY44d5EjeV-Kjwo9gQaCmybD4U7IsfTsEaTkQ-fieagAmLK37zB_gzihAKd74Gti5ieOPY5h0sBXhUf7nS5-F86C3axtCrpEnJPigGZefOmLwwu_LRnvmIp70wnjZklag8gfSKW27INM4-LjXTqk-0LlaQ6xj5fJTePY1oIeMWuNfE1AuFFZWelo5ht9QcqdiTh3NrtdcanzRu2rtX3nxqdDq76UTtsuCdwXy7ZQU7OfIlmlkkpgEF3gq01BXefllyhthr8O0_gllluroVpX-ffViglxgq1bM--lDIfODWcfi4b3kIwaU8dvDfaVGwjg3T1bVRXufm7wz2LkNNubFXRp8qLQPfYu178-czSAdyXocqHz-mXcIZuFF9Fc-CyXlCQtE4iGRabGyPdH6nS9IYh6-bg4UFK38mVovlkS_u8nHNSGbXagu4BMI562K04O74BZUOurdbqOCaXo01mm99W-YN8peZsyyKkSQgJpgN1eNHQIomJGIj0bjrWf0Q9pt4zIqEmFY0GBNz1d9DMIOQ_6vWiFwcgBGeShn6kabwtL3HpDYQtLbFxVvjDUGUtDRRjirIA=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=agencemerguez\\u0026currency=CAD\\u0026flightsId=0eae03584d2a00001f948101_0%7C0eae03584d2a00001f948101_1\\u0026from=YUL\\u0026lang=ca-fr\\u0026passengers=1\\u0026to=LIS\\u0026booking_token=GIjYzCdgXb3WupcojzOyhAr0WCLk6KUj_4uSp3CtI6cybqrNlfgpwZ1CX3kjzRZtWAzHmgozdIBg49b3OMUDwXT3AM-k_WkXtVGAIPgwWL2g19y6C9M1vY-6z_XJXuaespP4aARCh2R0PRCWeDXKve8YkP8glv39BjNrDbOWe7jVnLieACACGH-a8nieu9i_ZeZI46icrjw-XrCCy5sqJVs6dTO7Wxy_HTGUfuY44d5EjeV-Kjwo9gQaCmybD4U7IsfTsEaTkQ-fieagAmLK37zB_gzihAKd74Gti5ieOPY5h0sBXhUf7nS5-F86C3axtCrpEnJPigGZefOmLwwu_LRnvmIp70wnjZklag8gfSKW27INM4-LjXTqk-0LlaQ6xj5fJTePY1oIeMWuNfE1AuFFZWelo5ht9QcqdiTh3NrtdcanzRu2rtX3nxqdDq76UTtsuCdwXy7ZQU7OfIlmlkkpgEF3gq01BXefllyhthr8O0_gllluroVpX-ffViglxgq1bM--lDIfODWcfi4b3kIwaU8dvDfaVGwjg3T1bVRXufm7wz2LkNNubFXRp8qLQPfYu178-czSAdyXocqHz-mXcIZuFF9Fc-CyXlCQtE4iGRabGyPdH6nS9IYh6-bg4UFK38mVovlkS_u8nHNSGbXagu4BMI562K04O74BZUOurdbqOCaXo01mm99W-YN8peZsyyKkSQgJpgN1eNHQIomJGIj0bjrWf0Q9pt4zIqEmFY0GBNz1d9DMIOQ_6vWiFwcgBGeShn6kabwtL3HpDYQtLbFxVvjDUGUtDRRjirIA=",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false
+    }
+  ],
+  "_results": 40
+}

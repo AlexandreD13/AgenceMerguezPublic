@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ subject }}</title>
+  <style>
+
+    /* Add your custom CSS styles here to make it flashy */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #FEF9EF;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+
+    .header {
+      background-color:#17C3B2;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 100px;
+      /* Adjust the size as needed */
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .destination-info {
+      text-align: left;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .destination-info h3 {
+      margin: 0;
+      font-size: 20px;
+      color: #ff6f61;
+    }
+
+    .destination-info p {
+      font-size: 16px;
+      margin: 10px 0;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .destination-info-row {
+      width: 50%;
+    }
+
+    .destination-info-col {
+      display: flex;
+    }
+
+    .destination-info-row-title {
+
+      color:  #227C9D;
+      font-weight: 600;
+
+    }
+
+    .footer {
+      background-color:#17C3B2;
+      color: #fff;
+      padding: 10px;
+      border-radius: 0 0 10px 10px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <img class="logo" src="sausage-logo.png" alt="Les Merguez Logo">
+    <h1>Les Merguez Flight Deals</h1>
+  </div>
+  <div class="content">
+    <h2>{{ header_content }}</h2>
+
+    {% block content %}
+    {% for entry in destinations_with_subscription %}
+    <div class="destination-info">
+      <div class="destination-info-col">
+
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Depart:</span>
+          <span>{{entry.destination.originCity.name}} ({{entry.destination.originAirport.code}})</span>
+        </div>
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Arrival:</span>
+          <span>{{entry.destination.city.name}} ({{entry.destination.destinationAirport.code}})</span>
+        </div>
+
+      </div>
+      <div class="destination-info-col">
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Depart date:</span>
+          <span>{{entry.destination.depart_date}}</span>
+        </div>
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Arrival date:</span>
+          <span>{{entry.destination.return_date}}</span>
+        </div>
+      </div>
+      <div class="destination-info-col">
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Price:</span>
+          <span>{{entry.destination.price}} (CAD)</span>
+        </div>
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Airline:</span>
+          <span>{{entry.destination.airlines.0}}<img src="{{entry.destination.airlineIcon}}" /></span>
+        </div>
+      </div>
+
+      {% if entry.discounted_percent and entry.average %}
+
+      <div class="destination-info-col">
+
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">Discount:</span>
+          <span>{{entry.discounted_percent}}% ({{entry.average}}$)</span>
+        </div>
+
+      </div>
+
+      {% endif %}
+
+      {% if entry.generic_deal %}
+      <div class="destination-info-col">
+        <div class="destination-info-row">
+          <span class="destination-info-row-title">!Generic deal!</span>
+        </div>
+      </div>
+
+      {% endif %}
+
+      <div class="destination-info-col">
+        <a href="{{ entry.destination.clickoutUrl }}">Enjoy your deal!</a>
+      </div>
+    </div>
+    {% endfor %}
+    {% endblock %}
+  </div>
+  <div class="footer">
+    <p>Visit our website for more flight deals and information.</p>
+    <p>&copy; 2023 Les Merguez. All rights reserved.</p>
+  </div>
+</div>
+</body>
+
+</html>

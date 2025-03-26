@@ -1,0 +1,32 @@
+asgiref==3.7.2
+Django==4.2.2
+sqlparse==0.4.4
+typing_extensions==4.6.3
+gunicorn==20.1.0
+psycopg2-binary
+dataclasses-json
+requests
+python-dotenv
+gunicorn
+
+# For the fake server
+Flask==2.3.2
+
+# For celery
+celery
+SQLAlchemy
+django-celery-results
+django-celery-beat
+# So prefork work on windows
+#eventlet
+
+# For reverse encoding of GPS
+opencage
+
+# DI
+dependency-injector
+
+# Logging
+loguru
+
+mypy

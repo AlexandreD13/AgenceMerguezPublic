@@ -1,0 +1,187 @@
+{
+  "id": "0eae0f6b4d2a0000e5a089c0_0|0eae0f6b4d2a0000e5a089c0_1",
+  "flyFrom": "YUL",
+  "flyTo": "MIA",
+  "cityFrom":"Montr\xc3\xa9al",
+  "cityCodeFrom": "YMQ",
+  "cityTo": "Miami",
+  "cityCodeTo": "MIA",
+  "countryFrom": {
+    "code": "CA",
+    "name": "Canada"
+  },
+  "countryTo": {
+    "code": "US",
+    "name":"\xc3\x89tats-Unis"
+  },
+  "local_departure": "2024-02-01T07:19:00.000Z",
+  "utc_departure": "2024-02-01T12:19:00.000Z",
+  "local_arrival": "2024-02-01T16:24:00.000Z",
+  "utc_arrival": "2024-02-01T21:24:00.000Z",
+  "nightsInDest": null,
+  "quality": 222.50845,
+  "distance": 2267.23,
+  "duration": {
+    "departure": 32700,
+    "return": 0,
+    "total": 32700
+  },
+  "price": 202,
+  "conversion": {
+    "CAD": 202,
+    "EUR": 137.8419948602678
+  },
+  "fare": {
+    "adults": 202,
+    "children": 202,
+    "infants": 202
+  },
+  "fare_locks": {
+    "CAD": [
+      {
+        "default": false,
+        "duration": "P7D",
+        "itinerary_price_limit": 495.0892,
+        "itinerary_price_remaining": 202,
+        "fare_lock_kind": "fee",
+        "price": 50.5,
+        "rule_instance_id": 26750,
+        "version": "v1"
+      },
+      {
+        "default": false,
+        "duration": "P1D",
+        "itinerary_price_limit": 495.0892,
+        "itinerary_price_remaining": 202,
+        "fare_lock_kind": "fee",
+        "price": 10.1,
+        "rule_instance_id": 26749,
+        "version": "v1"
+      },
+      {
+        "default": true,
+        "duration": "P3D",
+        "itinerary_price_limit": 495.0892,
+        "itinerary_price_remaining": 202,
+        "fare_lock_kind": "fee",
+        "price": 20.200001,
+        "rule_instance_id": 26748,
+        "version": "v1"
+      }
+    ],
+    "EUR": [
+      {
+        "default": false,
+        "duration": "P7D",
+        "itinerary_price_limit": 337.841995,
+        "itinerary_price_remaining": 137.841995,
+        "fare_lock_kind": "fee",
+        "price": 34.460499,
+        "rule_instance_id": 26750,
+        "version": "v1"
+      },
+      {
+        "default": false,
+        "duration": "P1D",
+        "itinerary_price_limit": 337.841995,
+        "itinerary_price_remaining": 137.841995,
+        "fare_lock_kind": "fee",
+        "price": 6.8921,
+        "rule_instance_id": 26749,
+        "version": "v1"
+      },
+      {
+        "default": true,
+        "duration": "P3D",
+        "itinerary_price_limit": 337.841995,
+        "itinerary_price_remaining": 137.841995,
+        "fare_lock_kind": "fee",
+        "price": 13.7842,
+        "rule_instance_id": 26748,
+        "version": "v1"
+      }
+    ]
+  },
+  "bags_price": {},
+  "baglimit": {
+    "hand_height": 36,
+    "hand_length": 56,
+    "hand_weight": 10,
+    "hand_width": 23,
+    "personal_item_height": 35,
+    "personal_item_length": 45,
+    "personal_item_weight": 10,
+    "personal_item_width": 20
+  },
+  "availability": {
+    "seats": null
+  },
+  "airlines": [
+    "AA"
+  ],
+  "route": [
+    {
+      "id": "0eae0f6b4d2a0000e5a089c0_0",
+      "combination_id": "0eae0f6b4d2a0000e5a089c0",
+      "flyFrom": "YUL",
+      "flyTo": "LGA",
+      "cityFrom":"Montr\xc3\xa9al",
+      "cityCodeFrom": "YMQ",
+      "cityTo": "New York",
+      "cityCodeTo": "NYC",
+      "local_departure": "2024-02-01T07:19:00.000Z",
+      "utc_departure": "2024-02-01T12:19:00.000Z",
+      "local_arrival": "2024-02-01T09:05:00.000Z",
+      "utc_arrival": "2024-02-01T14:05:00.000Z",
+      "airline": "AA",
+      "flight_no": 4469,
+      "operating_carrier": "AA",
+      "operating_flight_no": "4469",
+      "fare_basis": "",
+      "fare_category": "M",
+      "fare_classes": "",
+      "return": 0,
+      "bags_recheck_required": false,
+      "vi_connection": false,
+      "guarantee": false,
+      "equipment": null,
+      "vehicle_type": "aircraft"
+    },
+    {
+      "id": "0eae0f6b4d2a0000e5a089c0_1",
+      "combination_id": "0eae0f6b4d2a0000e5a089c0",
+      "flyFrom": "LGA",
+      "flyTo": "MIA",
+      "cityFrom": "New York",
+      "cityCodeFrom": "NYC",
+      "cityTo": "Miami",
+      "cityCodeTo": "MIA",
+      "local_departure": "2024-02-01T12:59:00.000Z",
+      "utc_departure": "2024-02-01T17:59:00.000Z",
+      "local_arrival": "2024-02-01T16:24:00.000Z",
+      "utc_arrival": "2024-02-01T21:24:00.000Z",
+      "airline": "AA",
+      "flight_no": 1465,
+      "operating_carrier": "AA",
+      "operating_flight_no": "1465",
+      "fare_basis": "",
+      "fare_category": "M",
+      "fare_classes": "",
+      "return": 0,
+      "bags_recheck_required": false,
+      "vi_connection": false,
+      "guarantee": false,
+      "equipment": null,
+      "vehicle_type": "aircraft"
+    }
+  ],
+  "booking_token": "Gp8kojD6NSjW62RdLI39bu2u4iM_YAX_IJ47SfBSHVPrwtvduCU7rm8Id84NJbc-l2VDtbTfOu5WwVF7IOEK3_chsPnchOP-aky2PkD2LAjUzH6RQDNbiUJCmrs96gRgHEtGuVUVUb4q-fNfaLIOiW1FSHvBgmIk835jiy89r48xgf3uX1PYFzI-8JiEW3Jja333fK-TOL5UGut6oxnpHH58ilTfX_Q2H0cG0yXUCVK1yxsUOVDdl47iMF9VTuVcb8GC-uxSEBPoqZ8ouhV29lV1RBsjnaZqWXs6k0NOUV4tOSdaMfgbL1ycqb-J2MmKa63fq0BcD8PbUOoNXe-ijcj1ItmqyydM9VF0E89orHS4Cy5sqPgRwnaTLunRciaXt3t8PkRCkrMDegJ0Pg1pkVimIz9d-G53YAS0ktuyjY_ASAyD0vc46ZeB487qFplGmNbsq3phVb3wg4Q8EDJqAYCTcs7JgAu2oKYO5oAksHtwmx1duxs8eFbKfcYRmDINnnZitfetVXwimusweqVdslwBM-MvUMTJJVi8eNqpgE39OLEWrEcenhxqredI9bf5JmhwWpLU_nbkGWibgdCklewlHJRxiUAn1NpXsAlWBN1tIgwQzE6nuB-BrIotDSFlxlr-JwYjavcxWNJOjl7_JsGNXGrihKFfdK9u8Uf-zX25sBEWpT1W1QA0pK2Mz8WMrBMpY-MCCQAB94gF3Yinf99hiH6zqS_v6I32AExXKevtB-9dJMds74x7za7h75ams",
+  "deep_link": "replaced",
+  "facilitated_booking_available": false,
+  "pnr_count": 1,
+  "has_airport_change": false,
+  "technical_stops": 0,
+  "throw_away_ticketing": false,
+  "hidden_city_ticketing": false,
+  "virtual_interlining": false
+}

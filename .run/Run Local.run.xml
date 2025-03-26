@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Local" type="CompoundRunConfigurationType">
+    <toRun name="Run" type="PythonConfigurationType" />
+    <toRun name="Run tailwind" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
